@@ -1,0 +1,3 @@
+{
+    condition: "braysWorld.featureToggles.connectedTextures.grass"
+}

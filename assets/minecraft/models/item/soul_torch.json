@@ -1,0 +1,7 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/template_torch",
+	"textures": {
+		"torch": "block/soul_torch"
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"credit": "Bray was here :)",
+	"textures": {
+		"particle": "block/planks/oak_planks1",
+		"planks": "block/planks/oak_planks1",
+		"flat": "block/planks/oak_planks1_90",
+		"planks_diag": "block/planks/oak_planks_diag2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#planks", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#planks", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#planks", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#planks", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#planks_diag"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#flat", "cullface": "down"}
+			}
+		},
+		{
+			"from": [8, 8, 8],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#planks_diag"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#planks", "cullface": "east"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#planks", "cullface": "south"},
+				"west": {"uv": [8, 0, 0, 8], "texture": "#planks_diag"},
+				"up": {"uv": [8, 8, 16, 16], "rotation": 180, "texture": "#planks_diag", "cullface": "up"}
+			}
+		}
+	]
+}

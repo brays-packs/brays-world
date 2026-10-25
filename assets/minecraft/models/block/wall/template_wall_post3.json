@@ -1,0 +1,58 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"textures": {
+		"particle": "block/stone/bricks1",
+		"wall": "block/stone/bricks1"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [4, 8, 4],
+			"to": [12, 16, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.5, 8]},
+			"faces": {
+				"north": {"uv": [4, 0, 12, 8], "texture": "#wall"},
+				"east": {"uv": [4, 0, 12, 8], "texture": "#wall"},
+				"south": {"uv": [4, 0, 12, 8], "texture": "#wall"},
+				"west": {"uv": [4, 0, 12, 8], "texture": "#wall"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#wall", "cullface": "up"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#wall"}
+			}
+		},
+		{
+			"name": "Center post",
+			"from": [4, 0, 4],
+			"to": [12, 4, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.5, 8]},
+			"faces": {
+				"north": {"uv": [4, 12, 12, 16], "texture": "#wall"},
+				"east": {"uv": [4, 12, 12, 16], "texture": "#wall"},
+				"south": {"uv": [4, 12, 12, 16], "texture": "#wall"},
+				"west": {"uv": [4, 12, 12, 16], "texture": "#wall"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#wall"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#wall", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Center post",
+			"from": [4.75, 4, 4.75],
+			"to": [11.25, 8, 11.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.5, 8]},
+			"faces": {
+				"north": {"uv": [4.75, 8, 11.25, 12], "texture": "#wall"},
+				"east": {"uv": [4.75, 8, 11.25, 12], "texture": "#wall"},
+				"south": {"uv": [4.75, 8, 11.25, 12], "texture": "#wall"},
+				"west": {"uv": [4.75, 8, 11.25, 12], "texture": "#wall"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [-8, 10, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

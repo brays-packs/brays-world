@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed",
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leaf_litter"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/leaf_litter"
+    }
+  }
+}

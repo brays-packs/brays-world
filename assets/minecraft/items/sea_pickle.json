@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "head"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/sea_pickle_in_hand"
+        }
+      },
+      {
+        "when": [
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "fixed",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/sea_pickle_in_hand"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/sea_pickle"
+        },
+        "when": [
+          "gui"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/sea_pickle"
+    },
+    "property": "minecraft:display_context"
+  }
+}

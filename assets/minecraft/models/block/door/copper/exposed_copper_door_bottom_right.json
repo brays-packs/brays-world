@@ -1,0 +1,8 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "block/door/copper/copper_door_bottom_right",
+	"textures": {
+		"bottom": "block/door/copper/exposed_copper_door_bottom",
+		"particle": "block/door/copper/exposed_copper_door_bottom"
+	}
+}

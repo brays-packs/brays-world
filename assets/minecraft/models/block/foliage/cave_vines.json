@@ -1,0 +1,28 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"particle": "block/foliage/cave_vines",
+		"plant": "block/foliage/cave_vines"
+	},
+	"elements": [
+		{
+			"from": [-1, 0, 8],
+			"to": [17, 16, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#plant"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#plant"}
+			}
+		},
+		{
+			"from": [7.43431, 0, -1.23431],
+			"to": [7.43431, 16, 16.76569],
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.43431, 8, 8.56569]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#plant"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#plant"}
+			}
+		}
+	]
+}

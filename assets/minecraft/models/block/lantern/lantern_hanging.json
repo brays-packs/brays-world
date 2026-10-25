@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/lantern/template_hanging_lantern",
+  "textures": {
+    "particle": "minecraft:block/lantern/lantern",
+	"lantern": "minecraft:block/lantern/lantern"
+  }
+}

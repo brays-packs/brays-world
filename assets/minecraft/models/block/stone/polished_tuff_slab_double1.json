@@ -1,0 +1,9 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "block/templates/template_slab_double",
+	"textures": {
+		"side": "block/stone/polished_tuff2",
+		"particle": "block/stone/polished_tuff1",
+		"top": "block/stone/polished_tuff1"
+	}
+}

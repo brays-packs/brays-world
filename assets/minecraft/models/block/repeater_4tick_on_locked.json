@@ -1,0 +1,10 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/repeater_4tick_locked",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "block/repeater_on",
+        "torch": "block/redstone_torch",
+		"lock": "block/bedrock"
+    }
+}

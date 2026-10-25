@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/foliage/flower_pot_cross",
+  "textures": {
+    "plant": "minecraft:block/foliage/warped_roots_pot",
+	"particle": "minecraft:block/foliage/warped_roots_pot"
+  }
+}

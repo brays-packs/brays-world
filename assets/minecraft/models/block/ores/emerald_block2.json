@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/ores/template_reflect_rotate",
+  "textures": {
+    "block": "minecraft:block/emerald_block"
+  }
+}

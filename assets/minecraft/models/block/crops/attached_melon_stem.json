@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/crops/stem_fruit",
+  "textures": {
+    "stem": "minecraft:block/crops/melon_stem",
+    "upperstem": "minecraft:block/crops/attached_melon_stem"
+  }
+}

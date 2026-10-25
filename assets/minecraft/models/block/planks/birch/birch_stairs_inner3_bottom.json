@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/templates/template_inner_stairs_planks_bottom",
+  "textures": {
+	"particle": "block/planks/birch/birch_planks1",
+	"planks": "block/planks/birch/birch_planks1",
+	"flat": "block/planks/birch/birch_planks1_270",
+	"planks_diag": "block/planks/birch/birch_planks_diag3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/templates/template_inner_stairs_planks_top",
+  "textures": {
+	"particle": "block/planks/acacia/acacia_planks1",
+	"planks": "block/planks/acacia/acacia_planks1",
+	"flat": "block/planks/acacia/acacia_planks1_90",
+	"planks_diag": "block/planks/acacia/acacia_planks_diag1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/bookshelf/bookshelf", "weight": 8},
+	{"model": "minecraft:block/bookshelf/bookshelf", "y": 90, "weight": 8},
+	{"model": "minecraft:block/bookshelf/bookshelf2", "weight": 8},
+	{"model": "minecraft:block/bookshelf/bookshelf2", "y": 90, "weight": 8},
+	{"model": "minecraft:block/bookshelf/bookshelf3", "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf3", "y": 90, "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf7", "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf7", "y": 90, "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf4", "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf4", "y": 90, "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf9", "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf9", "y": 90, "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf12", "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf12", "y": 90, "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf5", "weight": 2},
+	{"model": "minecraft:block/bookshelf/bookshelf5", "y": 90, "weight": 2},
+	{"model": "minecraft:block/bookshelf/bookshelf6", "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf6", "y": 90, "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf11", "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf11", "y": 90, "weight": 1},
+	{"model": "minecraft:block/bookshelf/bookshelf8", "weight": 3},
+	{"model": "minecraft:block/bookshelf/bookshelf8", "y": 90, "weight": 3},
+	{"model": "minecraft:block/bookshelf/bookshelf10", "weight": 3},
+	{"model": "minecraft:block/bookshelf/bookshelf10", "y": 90, "weight": 3}
+    ]
+  }
+}

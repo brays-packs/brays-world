@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/trials/template_vault",
+  "textures": {
+    "bottom": "minecraft:block/trials/vault_bottom",
+    "front": "minecraft:block/trials/vault_front_off",
+    "side": "minecraft:block/trials/vault_side_off",
+    "top": "minecraft:block/trials/vault_top"
+  }
+}

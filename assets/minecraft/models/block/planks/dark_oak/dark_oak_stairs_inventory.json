@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_stairs_inventory",
+  "textures": {
+	"particle": "block/planks/dark_oak/dark_oak_planks1",
+	"planks": "block/planks/dark_oak/dark_oak_planks1"
+  }
+}

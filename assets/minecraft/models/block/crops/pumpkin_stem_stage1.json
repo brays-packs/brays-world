@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crops/stem_growth1",
+  "textures": {
+    "stem": "minecraft:block/crops/pumpkin_stem"
+  }
+}

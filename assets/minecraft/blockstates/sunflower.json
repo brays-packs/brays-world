@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "half=lower": [
+	{"model": "minecraft:block/flowers/sunflower_bottom1"},
+	{"model": "minecraft:block/flowers/sunflower_bottom1_alt1"},
+	{"model": "minecraft:block/flowers/sunflower_bottom2"},
+	{"model": "minecraft:block/flowers/sunflower_bottom2_alt1"},
+	{"model": "minecraft:block/flowers/sunflower_bottom1"},
+	{"model": "minecraft:block/flowers/sunflower_bottom1_alt1"},
+	{"model": "minecraft:block/flowers/sunflower_bottom2"},
+	{"model": "minecraft:block/flowers/sunflower_bottom2_alt1"},
+	{"model": "minecraft:block/flowers/sunflower_bottom1"},
+	{"model": "minecraft:block/flowers/sunflower_bottom1_alt1"},
+	{"model": "minecraft:block/flowers/sunflower_bottom2"},
+	{"model": "minecraft:block/flowers/sunflower_bottom2_alt1"}
+    ],
+    "half=upper": [
+	{"model": "minecraft:block/flowers/sunflower_top1"},
+	{"model": "minecraft:block/flowers/sunflower_top1_alt1"},
+	{"model": "minecraft:block/flowers/sunflower_top2"},
+	{"model": "minecraft:block/flowers/sunflower_top2_alt1"},
+	{"model": "minecraft:block/flowers/sunflower_top3"},
+	{"model": "minecraft:block/flowers/sunflower_top3_alt1"},
+	{"model": "minecraft:block/flowers/sunflower_top4"},
+	{"model": "minecraft:block/flowers/sunflower_top4_alt1"},
+	{"model": "minecraft:block/flowers/sunflower_top5"},
+	{"model": "minecraft:block/flowers/sunflower_top5_alt1"},
+	{"model": "minecraft:block/flowers/sunflower_top6"},
+	{"model": "minecraft:block/flowers/sunflower_top6_alt1"}
+    ]
+  }
+}

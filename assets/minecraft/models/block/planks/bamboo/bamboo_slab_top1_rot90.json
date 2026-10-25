@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_slab_top_planks_rot90",
+  "textures": {
+    "particle": "minecraft:block/planks/bamboo/bamboo_planks1",
+	"planks": "minecraft:block/planks/bamboo/bamboo_planks1"
+  }
+}

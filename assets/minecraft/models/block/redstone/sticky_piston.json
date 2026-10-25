@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/redstone/template_piston",
+  "textures": {
+    "bottom": "minecraft:block/redstone/piston_bottom",
+    "platform": "minecraft:block/redstone/piston_top_sticky",
+    "side": "minecraft:block/redstone/piston_side_sticky"
+  }
+}

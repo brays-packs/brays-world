@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_fence_gate_inventory",
+  "textures": {
+    "fence": "minecraft:block/planks/mangrove/mangrove_fence",
+	"particle": "minecraft:block/planks/mangrove/mangrove_fence"
+	}
+}

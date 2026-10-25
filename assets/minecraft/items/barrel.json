@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "box",
+          "Box",
+          "BOX"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/barrel_box"
+        }
+      },
+	  {
+        "when": [
+          "apple",
+		  "Apple",
+		  "APPLE",
+		  "apples",
+		  "Apples",
+		  "APPLES",
+		  "Barrel of apples",
+		  "Barrel Of Apples",
+		  "BARREL OF APPLES"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/barrel_apples"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/barrel"
+    }
+  }
+}

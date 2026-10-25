@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/ores/deepslate_lapis_ore1"},
+	{"model": "minecraft:block/ores/deepslate_lapis_ore2"},
+	{"model": "minecraft:block/ores/deepslate_lapis_ore3"},
+	{"model": "minecraft:block/ores/deepslate_lapis_ore4"}
+		]
+  }
+}

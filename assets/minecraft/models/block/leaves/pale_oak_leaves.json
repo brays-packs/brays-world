@@ -1,0 +1,7 @@
+{
+  "credit": "Bray was here :)",
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "minecraft:block/leaves/pale_oak_leaves"
+  }
+}

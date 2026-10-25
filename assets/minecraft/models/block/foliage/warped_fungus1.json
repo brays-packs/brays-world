@@ -1,0 +1,96 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "block/foliage/warped_fungus",
+		"fungus": "block/foliage/warped_fungus"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 4, 9],
+			"faces": {
+				"north": {"uv": [7, 7, 8, 9], "texture": "#fungus"},
+				"east": {"uv": [7, 7, 8, 9], "texture": "#fungus"},
+				"south": {"uv": [7, 7, 8, 9], "texture": "#fungus"},
+				"west": {"uv": [7, 7, 8, 9], "texture": "#fungus"},
+				"down": {"uv": [5.5, 7.5, 4.5, 8.5], "texture": "#fungus"}
+			}
+		},
+		{
+			"from": [6.5, 4, 6.5],
+			"to": [9.5, 5, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -0.25, 0]},
+			"faces": {
+				"north": {"uv": [7, 2, 8.5, 2.5], "texture": "#fungus"},
+				"east": {"uv": [7, 2, 8.5, 2.5], "texture": "#fungus"},
+				"south": {"uv": [7, 2, 8.5, 2.5], "texture": "#fungus"},
+				"west": {"uv": [7, 2, 8.5, 2.5], "texture": "#fungus"},
+				"down": {"uv": [8.5, 5.5, 7, 7], "texture": "#fungus"}
+			}
+		},
+		{
+			"from": [3.5, 5, 3.5],
+			"to": [12.5, 7, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -0.25, 0]},
+			"faces": {
+				"north": {"uv": [4.5, 2.5, 9, 3.5], "texture": "#fungus"},
+				"east": {"uv": [4.5, 3.5, 9, 4.5], "texture": "#fungus"},
+				"south": {"uv": [4.5, 4.5, 9, 5.5], "texture": "#fungus"},
+				"west": {"uv": [4.5, 4.5, 9, 5.5], "texture": "#fungus"},
+				"up": {"uv": [4.5, 4.5, 0, 0], "texture": "#fungus"},
+				"down": {"uv": [0, 4.5, 4.5, 9], "texture": "#fungus"}
+			}
+		},
+		{
+			"from": [5.5, 7, 5.5],
+			"to": [10.5, 9, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0.25, 0]},
+			"faces": {
+				"north": {"uv": [4.5, 5.5, 7, 6.5], "texture": "#fungus"},
+				"east": {"uv": [4.5, 6.5, 7, 7.5], "texture": "#fungus"},
+				"south": {"uv": [7, 0, 9.5, 1], "texture": "#fungus"},
+				"west": {"uv": [7, 1, 9.5, 2], "texture": "#fungus"},
+				"up": {"uv": [4.5, 0, 7, 2.5], "texture": "#fungus"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4.5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-18, 0, 0],
+			"translation": [0.5, 5, 0.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-18, 0, 0],
+			"translation": [0.5, 5, 0.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"translation": [0, 3, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"translation": [0, 12.5, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -10.25],
+			"scale": [1.42, 1.42, 1.42]
+		}
+	}
+}

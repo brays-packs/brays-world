@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/door/copper/weathered_copper_door_inventory"
+  }
+}

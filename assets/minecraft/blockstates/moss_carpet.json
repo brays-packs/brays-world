@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/moss/moss_carpet1", "weight": 8},
+	{"model": "minecraft:block/moss/moss_carpet1", "weight": 8, "y": 90},
+	{"model": "minecraft:block/moss/moss_carpet2", "weight": 1},
+	{"model": "minecraft:block/moss/moss_carpet2", "weight": 1, "y": 90},
+	{"model": "minecraft:block/moss/moss_carpet3", "weight": 1},
+	{"model": "minecraft:block/moss/moss_carpet3", "weight": 1, "y": 90},
+	{"model": "minecraft:block/moss/moss_carpet4", "weight": 1},
+	{"model": "minecraft:block/moss/moss_carpet4"," weight": 1, "y": 90},
+	{"model": "minecraft:block/moss/moss_carpet5", "weight": 8},
+	{"model": "minecraft:block/moss/moss_carpet5"," weight": 8, "y": 90},
+	{"model": "minecraft:block/moss/moss_carpet6", "weight": 1},
+	{"model": "minecraft:block/moss/moss_carpet6"," weight": 1, "y": 90}
+	]
+  }
+}

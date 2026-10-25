@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_fence_side",
+  "textures": {
+    "planks": "minecraft:block/planks/pale_oak/pale_oak_fence",
+	"particle": "minecraft:block/planks/pale_oak/pale_oak_fence"
+  }
+}

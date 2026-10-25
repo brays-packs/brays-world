@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "type=bottom": [
+	{"model": "minecraft:block/stone/polished_tuff_slab1"},
+	{"model": "minecraft:block/stone/polished_tuff_slab2"}
+    ],
+    "type=double": [
+	{"model": "minecraft:block/stone/polished_tuff_slab_double1"},
+	{"model": "minecraft:block/stone/polished_tuff_slab_double2"}
+    ],
+    "type=top": [
+	{"model": "minecraft:block/stone/polished_tuff_slab_top1"},
+	{"model": "minecraft:block/stone/polished_tuff_slab_top2"}
+    ]
+  }
+}

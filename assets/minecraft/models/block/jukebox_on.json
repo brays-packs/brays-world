@@ -1,0 +1,51 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/cube_top",
+	"textures": {
+		"record": "block/jukebox_record",
+		"particle": "block/jukebox_side",
+		"side": "block/jukebox_side",
+		"top": "block/jukebox_top"
+	},
+	"elements": [
+		{
+			"from": [4, 16, 4],
+			"to": [12, 16.75, 12],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 16.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 8], "rotation": 90, "texture": "#record", "cullface": "up"},
+				"east": {"uv": [0, 0, 2, 16], "rotation": 270, "texture": "#record", "cullface": "up"},
+				"south": {"uv": [0, 0, 2, 8], "rotation": 90, "texture": "#record", "cullface": "up"},
+				"west": {"uv": [0, 0, 2, 8], "rotation": 90, "texture": "#record", "cullface": "up"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#record", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#record", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.375, 9.75]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#top", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#side", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7, 16, 9],
+			"to": [9, 17.5, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.375, 9.75]},
+			"faces": {
+				"north": {"uv": [7, 6, 9, 7], "texture": "#top", "cullface": "up"},
+				"east": {"uv": [7, 2, 8, 7], "rotation": 270, "texture": "#top", "cullface": "up"},
+				"south": {"uv": [7, 2, 9, 3], "rotation": 180, "texture": "#top", "cullface": "up"},
+				"west": {"uv": [8, 2, 9, 7], "rotation": 90, "texture": "#top", "cullface": "up"},
+				"up": {"uv": [7, 2, 9, 7], "rotation": 180, "texture": "#top", "cullface": "up"}
+			}
+		}
+	]
+}

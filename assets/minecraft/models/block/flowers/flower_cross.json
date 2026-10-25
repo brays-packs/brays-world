@@ -1,0 +1,31 @@
+{
+	"format_version": "26.3",
+	"credit": "Bray was here :)",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/flowers/poppy1",
+		"flower1": "block/flowers/poppy1"
+	},
+	"elements": [
+		{
+			"from": [0.8, 0, 8],
+			"to": [15.2, 16, 8],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#flower1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#flower1"}
+			}
+		},
+		{
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#flower1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#flower1"}
+			}
+		}
+	]
+}

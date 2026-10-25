@@ -1,0 +1,51 @@
+{
+	"format_version": "26.3",
+	"credit": "Bray was here :)",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/crops/wheat_stage7",
+		"crop": "block/crops/wheat_stage7"
+	},
+	"elements": [
+		{
+			"from": [2.63838, 0.4676, 0],
+			"to": [2.63838, 15.4676, 16],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 10, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#crop"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#crop"}
+			}
+		},
+		{
+			"from": [0, 0.4676, 2.63838],
+			"to": [16, 15.4676, 2.63838],
+			"shade_direction_override": "up",
+			"rotation": {"angle": -10, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#crop"}
+			}
+		},
+		{
+			"from": [13.36162, 0.4676, 0],
+			"to": [13.36162, 15.4676, 16],
+			"shade_direction_override": "up",
+			"rotation": {"angle": -10, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#crop"}
+			}
+		},
+		{
+			"from": [0, 0.4676, 13.36162],
+			"to": [16, 15.4676, 13.36162],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 10, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#crop"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#crop"}
+			}
+		}
+	]
+}

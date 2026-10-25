@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "block/flowers/open_eyeblossom_bundle",
+	"layer1": "block/flowers/open_eyeblossom_bundle_emissive"
+  }
+}

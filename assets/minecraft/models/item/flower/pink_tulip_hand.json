@@ -1,0 +1,8 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "item/flower/template_flower_hand",
+	"textures": {
+		"particle": "block/flowers/pink_tulip_bundle",
+		"flower": "block/flowers/pink_tulip_bundle"
+	}
+}

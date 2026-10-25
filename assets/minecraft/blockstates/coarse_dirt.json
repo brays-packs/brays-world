@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "": [
+		{"model": "minecraft:block/dirt/coarse_dirt", "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt", "y": 90, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt", "y": 180, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt", "y": 270, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt", "x": 90, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt", "x": 180, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt", "x": 270, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt_cobbled", "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt_cobbled", "y": 90, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt_cobbled", "y": 180, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt_cobbled", "y": 270, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt_cobbled", "x": 90, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt_cobbled", "x": 180, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt_cobbled", "x": 270, "weight": 3},
+		{"model": "minecraft:block/dirt/coarse_dirt_stones1", "weight": 1},
+		{"model": "minecraft:block/dirt/coarse_dirt_stones1", "y": 90, "weight": 1},
+		{"model": "minecraft:block/dirt/coarse_dirt_stones1", "y": 180, "weight": 1},
+		{"model": "minecraft:block/dirt/coarse_dirt_stones1", "y": 270, "weight": 1},
+		{"model": "minecraft:block/dirt/coarse_dirt_stones2", "weight": 1},
+		{"model": "minecraft:block/dirt/coarse_dirt_stones2", "y": 90, "weight": 1},
+		{"model": "minecraft:block/dirt/coarse_dirt_stones2", "y": 180, "weight": 1},
+		{"model": "minecraft:block/dirt/coarse_dirt_stones2", "y": 270, "weight": 1}
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/templates/template_bed_inventory",
+  "textures": {
+		"head_up": "block/cyan_bed_head_up",
+		"foot_up": "block/cyan_bed_foot_up",
+		"head_east": "block/beds/cyan_bed_head_east",
+		"head_west": "block/beds/cyan_bed_head_west",
+		"foot_east": "block/beds/cyan_bed_foot_east",
+		"foot_west": "block/beds/cyan_bed_foot_west"
+	}
+}

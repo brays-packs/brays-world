@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/templates/template_inner_stairs_planks_bottom",
+  "textures": {
+	"particle": "block/planks/crimson/crimson_planks1",
+	"planks": "block/planks/crimson/crimson_planks1",
+	"flat": "block/planks/crimson/crimson_planks1",
+	"planks_diag": "block/planks/crimson/crimson_planks_diag1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/foliage/flower_pot_cross",
+  "textures": {
+    "plant": "minecraft:block/flowers/orange_tulip_bundle",
+	"particle": "minecraft:block/flowers/orange_tulip_bundle"
+  }
+}

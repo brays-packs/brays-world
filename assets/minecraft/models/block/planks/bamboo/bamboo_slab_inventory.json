@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_slab_inventory",
+  "textures": {
+	"particle": "block/planks/bamboo/bamboo_planks1",
+	"planks": "block/planks/bamboo/bamboo_planks1"
+  }
+}

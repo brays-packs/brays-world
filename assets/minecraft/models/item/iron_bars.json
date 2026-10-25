@@ -1,0 +1,41 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "block/iron_bars"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 15],
+			"translation": [0, 2.5, 1],
+			"scale": [0.55, 0.55, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 15],
+			"translation": [0, 2.5, 1],
+			"scale": [0.55, 0.55, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 115, 0],
+			"translation": [-0.5, 1.75, 1],
+			"scale": [0.5, 0.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 115, 0],
+			"translation": [-0.5, 1.75, 1],
+			"scale": [0.5, 0.5, 1]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.75]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.75, 0.75, 1]
+		},
+		"head": {
+			"translation": [0, 0, -7]
+		}
+	}
+}

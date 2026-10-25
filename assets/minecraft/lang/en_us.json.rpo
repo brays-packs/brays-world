@@ -1,0 +1,4 @@
+{
+    condition: "braysWorld.featureToggles.braysCustomPaintings",
+	fallbacks: "assets/minecraft/lang/paintings/en_us_nopaint.json"
+}

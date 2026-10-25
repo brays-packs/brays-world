@@ -1,0 +1,59 @@
+{
+  "variants": {
+    "eye=false,facing=east": {
+      "model": "minecraft:block/end_portal_frame",
+      "y": 270
+    },
+    "eye=false,facing=north": {
+      "model": "minecraft:block/end_portal_frame",
+      "y": 180
+    },
+    "eye=false,facing=south": {
+      "model": "minecraft:block/end_portal_frame"
+    },
+    "eye=false,facing=west": {
+      "model": "minecraft:block/end_portal_frame",
+      "y": 90
+    },
+    "eye=true,facing=east": [
+		{"model": "minecraft:block/end_portal_frame_filled1", "y": 270},
+		{"model": "minecraft:block/end_portal_frame_filled2", "y": 270},
+		{"model": "minecraft:block/end_portal_frame_filled3", "y": 270},
+		{"model": "minecraft:block/end_portal_frame_filled4", "y": 270},
+		{"model": "minecraft:block/end_portal_frame_filled5", "y": 270},
+		{"model": "minecraft:block/end_portal_frame_filled6", "y": 270},
+		{"model": "minecraft:block/end_portal_frame_filled7", "y": 270},
+		{"model": "minecraft:block/end_portal_frame_filled8", "y": 270}
+    ],
+    "eye=true,facing=north": [
+		{"model": "minecraft:block/end_portal_frame_filled1", "y": 180},
+		{"model": "minecraft:block/end_portal_frame_filled2", "y": 180},
+		{"model": "minecraft:block/end_portal_frame_filled3", "y": 180},
+		{"model": "minecraft:block/end_portal_frame_filled4", "y": 180},
+		{"model": "minecraft:block/end_portal_frame_filled5", "y": 180},
+		{"model": "minecraft:block/end_portal_frame_filled6", "y": 180},
+		{"model": "minecraft:block/end_portal_frame_filled7", "y": 180},
+		{"model": "minecraft:block/end_portal_frame_filled8", "y": 180}
+    ],
+    "eye=true,facing=south": [
+		{"model": "minecraft:block/end_portal_frame_filled1"},
+		{"model": "minecraft:block/end_portal_frame_filled2"},
+		{"model": "minecraft:block/end_portal_frame_filled3"},
+		{"model": "minecraft:block/end_portal_frame_filled4"},
+		{"model": "minecraft:block/end_portal_frame_filled5"},
+		{"model": "minecraft:block/end_portal_frame_filled6"},
+		{"model": "minecraft:block/end_portal_frame_filled7"},
+		{"model": "minecraft:block/end_portal_frame_filled8"}
+    ],
+    "eye=true,facing=west": [
+		{"model": "minecraft:block/end_portal_frame_filled1", "y": 90},
+		{"model": "minecraft:block/end_portal_frame_filled2", "y": 90},
+		{"model": "minecraft:block/end_portal_frame_filled3", "y": 90},
+		{"model": "minecraft:block/end_portal_frame_filled4", "y": 90},
+		{"model": "minecraft:block/end_portal_frame_filled5", "y": 90},
+		{"model": "minecraft:block/end_portal_frame_filled6", "y": 90},
+		{"model": "minecraft:block/end_portal_frame_filled7", "y": 90},
+		{"model": "minecraft:block/end_portal_frame_filled8", "y": 90}
+    ]
+  }
+}

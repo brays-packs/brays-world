@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crops/crop_bushy",
+  "textures": {
+    "crop": "minecraft:block/crops/wheat_stage5"
+  }
+}

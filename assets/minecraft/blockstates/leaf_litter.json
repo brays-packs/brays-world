@@ -1,0 +1,160 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_1segment"
+      },
+      "when": {
+        "facing": "north",
+        "segment_amount": "1"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_2segment"
+      },
+      "when": {
+        "facing": "north",
+        "segment_amount": "2"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_3segment"
+      },
+      "when": {
+        "facing": "north",
+        "segment_amount": "3"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_4segment"
+      },
+      "when": {
+        "facing": "north",
+        "segment_amount": "4"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_1segment",
+		"y": 90
+      },
+      "when": {
+        "facing": "east",
+        "segment_amount": "1"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_2segment",
+		"y": 90
+      },
+      "when": {
+        "facing": "east",
+        "segment_amount": "2"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_3segment",
+		"y": 90
+      },
+      "when": {
+        "facing": "east",
+        "segment_amount": "3"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_4segment",
+		"y": 90
+      },
+      "when": {
+        "facing": "east",
+        "segment_amount": "4"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_1segment",
+		"y": 180
+      },
+      "when": {
+        "facing": "south",
+        "segment_amount": "1"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_2segment",
+		"y": 180
+      },
+      "when": {
+        "facing": "south",
+        "segment_amount": "2"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_3segment",
+		"y": 180
+      },
+      "when": {
+        "facing": "south",
+        "segment_amount": "3"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_4segment",
+		"y": 180
+      },
+      "when": {
+        "facing": "south",
+        "segment_amount": "4"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_1segment",
+		"y": 270
+      },
+      "when": {
+        "facing": "west",
+        "segment_amount": "1"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_2segment",
+		"y": 270
+      },
+      "when": {
+        "facing": "west",
+        "segment_amount": "2"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_3segment",
+		"y": 270
+      },
+      "when": {
+        "facing": "west",
+        "segment_amount": "3"
+      }
+    },
+	{
+      "apply": {
+        "model": "minecraft:block/foliage/leaf_litter/leaf_litter1_4segment",
+		"y": 270
+      },
+      "when": {
+        "facing": "west",
+        "segment_amount": "4"
+      }
+    }
+  ]
+}

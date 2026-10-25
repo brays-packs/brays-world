@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/templates/template_stairs_polished_ns",
+  "textures": {
+	"particle": "block/stone/polished_tuff1",
+	"polished": "block/stone/polished_tuff1",
+	"polished_half_ns": "block/stone/polished_tuff2",
+	"polished_quad": "block/stone/polished_tuff3"
+  }
+}

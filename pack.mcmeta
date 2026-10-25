@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "description": "Bray was here :)\n§fby Bray §cv1.4.2",
+    "pack_format": 97.1,
+    "min_format": 65,
+    "max_format": 97.1
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "beds1.21.9-26.1",
+        "min_format": 65,
+        "max_format": 84
+      }
+    ]
+  }
+}

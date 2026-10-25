@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/trials/template_vault_ominous",
+  "textures": {
+    "bottom": "minecraft:block/trials/vault_bottom_ominous",
+    "front": "minecraft:block/trials/vault_front_ejecting_ominous",
+    "side": "minecraft:block/trials/vault_side_on_ominous",
+    "top": "minecraft:block/trials/vault_top_ominous"
+  }
+}

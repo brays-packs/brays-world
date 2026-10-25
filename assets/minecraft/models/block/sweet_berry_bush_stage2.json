@@ -1,0 +1,31 @@
+{
+	"format_version": "26.3",
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"cross": "block/sweet_berry_bush_stage2",
+		"particle": "block/log/oak_log"
+	},
+	"elements": [
+		{
+			"from": [0.90858, 0, 8.14142],
+			"to": [15.30858, 16, 8.14142],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [7.85858, 9, 8.14142], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [0.83536, 0, 7.96464],
+			"to": [15.23536, 16, 7.96464],
+			"shade_direction_override": "up",
+			"rotation": {"angle": -45, "axis": "y", "origin": [8.03536, 9, 7.96464], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		}
+	]
+}

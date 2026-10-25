@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:damage",
+    "cases": [
+      {
+        "when": 0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/tools/copper_pickaxe"
+        }
+      },
+      {
+        "when": 48,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/tools/copper_pickaxe_exposed"
+        }
+      },
+      {
+        "when": 96,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/tools/copper_pickaxe_weathered"
+        }
+      },
+      {
+        "when": 144,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/tools/copper_pickaxe_oxidized"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/tools/copper_pickaxe"
+    }
+  }
+}

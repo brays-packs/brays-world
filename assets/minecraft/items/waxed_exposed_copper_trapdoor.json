@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/door/copper/waxed_exposed_copper_trapdoor_inventory"
+        },
+        "when": [
+          "gui",
+          "fixed",
+		  "ground"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/door/copper/exposed_copper_trapdoor_inventory"
+    },
+    "property": "minecraft:display_context"
+  }
+}

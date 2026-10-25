@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/chest/waxed_weathered_copper_chest"
+        },
+        "when": [
+          "gui",
+          "fixed",
+		  "ground"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/chest/weathered_copper_chest"
+    },
+    "property": "minecraft:display_context"
+  }
+}

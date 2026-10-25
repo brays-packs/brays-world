@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/beds/template_bed",
+  "textures": {
+    "particle": "minecraft:block/gray_wool",
+	"bed": "minecraft:block/gray_bed"
+  }
+}

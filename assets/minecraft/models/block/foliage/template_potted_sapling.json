@@ -1,0 +1,113 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/foliage/sapling_pot",
+		"pot": "block/foliage/sapling_pot",
+		"soil": "block/dirt/dirt1",
+		"sapling": "block/foliage/birch_sapling"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 3, 11],
+			"faces": {
+				"north": {"uv": [0, 8, 6, 11], "texture": "#pot"},
+				"east": {"uv": [0, 8, 6, 11], "texture": "#pot"},
+				"south": {"uv": [0, 8, 6, 11], "texture": "#pot"},
+				"west": {"uv": [0, 8, 6, 11], "texture": "#pot"},
+				"down": {"uv": [6, 8, 12, 14], "texture": "#pot", "cullface": "down"}
+			}
+		},
+		{
+			"from": [5, 4, 5],
+			"to": [11, 4, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.75, 0, -0.75]},
+			"faces": {
+				"up": {"uv": [0, 0, 8, 8], "texture": "#soil"}
+			}
+		},
+		{
+			"from": [4, 3, 4],
+			"to": [6, 5, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.75, 4, 8]},
+			"faces": {
+				"north": {"uv": [6, 6, 8, 8], "texture": "#pot"},
+				"east": {"uv": [6, 0, 8, 8], "rotation": 90, "texture": "#pot"},
+				"south": {"uv": [6, 0, 8, 2], "rotation": 180, "texture": "#pot"},
+				"west": {"uv": [6, 1, 8, 9], "rotation": 90, "texture": "#pot"},
+				"up": {"uv": [6, 0, 8, 8], "rotation": 180, "texture": "#pot"},
+				"down": {"uv": [5, 10, 11, 11], "rotation": 270, "texture": "#pot"}
+			}
+		},
+		{
+			"from": [6, 3, 4],
+			"to": [10, 5, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.5, 4, 8.25]},
+			"faces": {
+				"north": {"uv": [7, 10, 11, 12], "texture": "#pot"},
+				"south": {"uv": [6, 6, 2, 8], "texture": "#pot"},
+				"up": {"uv": [2, 6, 6, 8], "rotation": 180, "texture": "#pot"},
+				"down": {"uv": [5, 10, 11, 11], "rotation": 180, "texture": "#pot"}
+			}
+		},
+		{
+			"from": [6, 3, 10],
+			"to": [10, 5, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.5, 4, 7.75]},
+			"faces": {
+				"north": {"uv": [6, 0, 2, 2], "rotation": 180, "texture": "#pot"},
+				"south": {"uv": [2, 0, 6, 2], "rotation": 180, "texture": "#pot"},
+				"up": {"uv": [2, 0, 6, 2], "rotation": 180, "texture": "#pot"},
+				"down": {"uv": [5, 10, 11, 11], "texture": "#pot"}
+			}
+		},
+		{
+			"from": [10, 3, 4],
+			"to": [12, 5, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.25, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 6, 2, 8], "texture": "#pot"},
+				"east": {"uv": [0, 1, 2, 7], "rotation": 270, "texture": "#pot"},
+				"south": {"uv": [0, 0, 2, 2], "rotation": 180, "texture": "#pot"},
+				"west": {"uv": [0, 0, 2, 8], "rotation": 270, "texture": "#pot"},
+				"up": {"uv": [0, 0, 2, 8], "rotation": 180, "texture": "#pot"},
+				"down": {"uv": [5, 10, 11, 11], "rotation": 90, "texture": "#pot"}
+			}
+		},
+		{
+			"name": "sapling_cross1",
+			"from": [1, 4, 8],
+			"to": [15, 20, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 7.5, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "sapling_cross2",
+			"from": [8, 4, 1],
+			"to": [8, 20, 15],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 7.5, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#sapling"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "pot",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		},
+		6,
+		7
+	]
+}

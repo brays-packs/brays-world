@@ -1,0 +1,63 @@
+{
+	"credit": "Bray was here :)",
+	"textures": {
+		"particle": "block/flowers/poppy_bundle",
+		"flower": "block/flowers/poppy_bundle"
+	},
+	"elements": [
+		{
+			"from": [2.6, 4, 8],
+			"to": [13.4, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#flower"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#flower"}
+			}
+		},
+		{
+			"from": [8, 4, 2.6],
+			"to": [8, 16, 13.4],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#flower"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#flower"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1.75, 1.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1.75, 1.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -37, 0],
+			"translation": [3, 0.25, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -37, 0],
+			"translation": [3, 0.25, 0]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"translation": [0, -2, 0],
+			"scale": [1.6, 1.5, 1.5]
+		},
+		"head": {
+			"translation": [0, 10.25, 0]
+		},
+		"fixed": {
+			"translation": [0, -1.75, 0],
+			"scale": [1.42, 1.42, 1.42]
+		}
+	}
+}

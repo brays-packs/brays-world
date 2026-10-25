@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "minecraft:block/redstone/dropper_vertical",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "minecraft:block/redstone/dropper",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "minecraft:block/redstone/dropper"
+    },
+    "facing=south": {
+      "model": "minecraft:block/redstone/dropper",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "minecraft:block/redstone/dropper_vertical"
+    },
+    "facing=west": {
+      "model": "minecraft:block/redstone/dropper",
+      "y": 270
+    }
+  }
+}

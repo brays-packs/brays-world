@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_slab_planks_rot90",
+  "textures": {
+    "particle": "minecraft:block/planks/acacia/acacia_planks2",
+    "planks": "minecraft:block/planks/acacia/acacia_planks2"
+  }
+}

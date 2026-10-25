@@ -1,0 +1,22 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "block/cube_all",
+	"textures": {
+		"particle": "block/emerald_block",
+		"block": "block/emerald_block"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#block"},
+				"east": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#block"},
+				"south": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#block"},
+				"west": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#block"},
+				"up": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#block"},
+				"down": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#block"}
+			}
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+		{"model": "minecraft:block/grass_block/crimson_nylium", "weight": 10},
+		{"model": "minecraft:block/grass_block/crimson_nylium", "y":90, "weight": 10},
+		{"model": "minecraft:block/grass_block/crimson_nylium", "y":180, "weight": 10},
+		{"model": "minecraft:block/grass_block/crimson_nylium", "y":270, "weight": 10},
+		{"model": "minecraft:block/grass_block/crimson_nylium_spores1"},
+		{"model": "minecraft:block/grass_block/crimson_nylium_spores1", "y":90},
+		{"model": "minecraft:block/grass_block/crimson_nylium_spores1", "y":180},
+		{"model": "minecraft:block/grass_block/crimson_nylium_spores1", "y":270},
+		{"model": "minecraft:block/grass_block/crimson_nylium_spores2"},
+		{"model": "minecraft:block/grass_block/crimson_nylium_spores2", "y":90},
+		{"model": "minecraft:block/grass_block/crimson_nylium_spores2", "y":180},
+		{"model": "minecraft:block/grass_block/crimson_nylium_spores2", "y":270}
+    ]
+  }
+}

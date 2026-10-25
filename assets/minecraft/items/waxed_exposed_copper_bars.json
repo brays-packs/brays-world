@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/copper/waxed_exposed_copper_bars_inventory"
+        },
+        "when": [
+          "gui",
+          "fixed",
+		  "ground"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/copper/exposed_copper_bars_inventory"
+    },
+    "property": "minecraft:display_context"
+  }
+}

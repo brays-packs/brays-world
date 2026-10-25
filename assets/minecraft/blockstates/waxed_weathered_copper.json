@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/copper/weathered_copper1", "weight": 1},
+	{"model": "minecraft:block/copper/weathered_copper2", "weight": 1}
+	]
+  }
+}

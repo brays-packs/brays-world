@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/stone/polished_granite1", "weight": 1},
+	{"model": "minecraft:block/stone/polished_granite4", "weight": 1}
+	]
+  }
+}

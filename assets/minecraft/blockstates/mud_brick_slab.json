@@ -1,0 +1,20 @@
+{
+  "variants":{
+		"type=bottom":[
+			{"model": "minecraft:block/stone/mud_brick_slab1"},
+			{"model": "minecraft:block/stone/mud_brick_slab2"}
+		],
+		"type=double":[
+			{"model": "minecraft:block/stone/mud_bricks1", "weight": 7},
+			{"model": "minecraft:block/stone/mud_bricks2", "weight": 3},
+			{"model": "minecraft:block/stone/mud_bricks3", "weight": 1},
+			{"model": "minecraft:block/stone/mud_bricks4", "weight": 1},
+			{"model": "minecraft:block/stone/mud_bricks5", "weight": 3},
+			{"model": "minecraft:block/stone/mud_bricks6", "weight": 3}
+		],
+		"type=top":[
+			{"model": "minecraft:block/stone/mud_brick_slab_top1"},
+			{"model": "minecraft:block/stone/mud_brick_slab_top2"}
+		]
+	}
+}

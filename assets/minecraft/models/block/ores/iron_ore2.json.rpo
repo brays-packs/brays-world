@@ -1,0 +1,4 @@
+{
+    condition: "!emissiveOres",
+    fallback: "assets/minecraft/models/block/ores/emissive/iron_ore2_emissive.json"
+}

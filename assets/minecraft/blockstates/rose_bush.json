@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "half=lower": [
+	{"model": "minecraft:block/flowers/rose_bush_bottom1", "weight": 3},
+	{"model": "minecraft:block/flowers/rose_bush_bottom2", "weight": 1},
+	{"model": "minecraft:block/flowers/rose_bush_bottom3", "weight": 1},
+	{"model": "minecraft:block/flowers/rose_bush_bottom4", "weight": 1}
+    ],
+    "half=upper": [
+	{"model": "minecraft:block/flowers/rose_bush_top1", "weight": 3},
+	{"model": "minecraft:block/flowers/rose_bush_top2", "weight": 1},
+	{"model": "minecraft:block/flowers/rose_bush_top3", "weight": 1},
+	{"model": "minecraft:block/flowers/rose_bush_top4", "weight": 1}
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+		{"model": "minecraft:block/stone/mossy_stone_bricks1", "weight": 5},
+		{"model": "minecraft:block/stone/mossy_stone_bricks2", "weight": 4},
+		{"model": "minecraft:block/stone/mossy_stone_bricks3", "weight": 1},
+		{"model": "minecraft:block/stone/mossy_stone_bricks4", "weight": 1},
+		{"model": "minecraft:block/stone/mossy_stone_bricks5", "weight": 1},
+		{"model": "minecraft:block/stone/mossy_stone_bricks6", "weight": 1},
+		{"model": "minecraft:block/stone/mossy_stone_bricks7", "weight": 5},
+		{"model": "minecraft:block/stone/mossy_stone_bricks8", "weight": 4},
+		{"model": "minecraft:block/stone/mossy_stone_bricks9", "weight": 1},
+		{"model": "minecraft:block/stone/mossy_stone_bricks10", "weight": 1},
+		{"model": "minecraft:block/stone/mossy_stone_bricks11", "weight": 1},
+		{"model": "minecraft:block/stone/mossy_stone_bricks12", "weight": 1}
+    ]
+  }
+}

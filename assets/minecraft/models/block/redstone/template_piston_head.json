@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"textures": {
+		"particle": "block/redstone/piston_top",
+		"platform": "block/redstone/piston_top",
+		"back": "block/redstone/piston_top_back",
+		"side": "block/redstone/piston_side",
+		"shaft": "block/redstone/piston_shaft"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#platform", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 4], "rotation": 90, "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#back"},
+				"west": {"uv": [0, 0, 16, 4], "rotation": 270, "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 4], "texture": "#side", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 4], "rotation": 180, "texture": "#side", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6, 6, 4],
+			"to": [10, 10, 20],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 4], "texture": "#shaft"},
+				"west": {"uv": [16, 4, 0, 0], "texture": "#shaft"},
+				"up": {"uv": [0, 0, 16, 4], "rotation": 270, "texture": "#shaft"},
+				"down": {"uv": [0, 0, 16, 4], "rotation": 90, "texture": "#shaft"}
+			}
+		}
+	]
+}

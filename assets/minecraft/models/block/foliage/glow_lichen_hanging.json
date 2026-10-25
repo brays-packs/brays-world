@@ -1,0 +1,55 @@
+{
+	"format_version": "26.3",
+	"credit": "Bray was here :)",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/foliage/glow_lichen",
+		"2": "block/foliage/glow_lichen_leaves",
+		"particle": "block/foliage/glow_lichen_hanging",
+		"cross": "block/foliage/glow_lichen_hanging"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"light_emission": 4,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [8, 16, 16],
+			"light_emission": 4,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"name": "lichen",
+			"from": [0, 15.9, 0],
+			"to": [16, 15.9, 16],
+			"light_emission": 4,
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 15.9, 8.025]},
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "lichen",
+			"from": [0, 15.4, 0],
+			"to": [16, 15.4, 16],
+			"light_emission": 4,
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 15.4, 8.025]},
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/iron_chain"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0.25, -3.25, 0.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-0.25, -3.25, 0.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -75, 0],
+			"translation": [2.75, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -75, 0],
+			"translation": [1.5, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"gui": {
+			"rotation": [30, -135, 0]
+		},
+		"head": {
+			"rotation": [-180, 0, 0],
+			"translation": [0, 13.25, 0]
+		}
+	}
+}

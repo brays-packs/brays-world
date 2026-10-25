@@ -1,0 +1,34 @@
+{
+	"credit": "Bray was here :)",
+	"textures": {
+		"particle": "block/stone/polished_diorite1",
+		"polished": "block/stone/polished_diorite1",
+		"polished_half": "block/stone/polished_diorite2",
+		"polished_quad": "block/stone/polished_diorite3"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#polished_half", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#polished_half", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#polished_half", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#polished_half", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#polished"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#polished", "cullface": "down"}
+			}
+		},
+		{
+			"from": [8, 8, 8],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#polished_quad"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#polished_quad", "cullface": "east"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#polished_quad", "cullface": "south"},
+				"west": {"uv": [8, 0, 16, 8], "texture": "#polished_quad"},
+				"up": {"uv": [8, 8, 16, 16], "texture": "#polished_quad", "cullface": "up"}
+			}
+		}
+	]
+}

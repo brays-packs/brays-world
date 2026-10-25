@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/waxed_copper_block"
+        },
+        "when": [
+          "gui",
+          "fixed",
+		  "ground"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/copper_block"
+    },
+    "property": "minecraft:display_context"
+  }
+}

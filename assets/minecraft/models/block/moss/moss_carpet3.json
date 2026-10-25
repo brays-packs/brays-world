@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/moss/moss_carpet1",
+	"textures": {
+		"particle": "block/moss/moss_block3",
+		"moss": "block/moss/moss_block3"
+  }
+}

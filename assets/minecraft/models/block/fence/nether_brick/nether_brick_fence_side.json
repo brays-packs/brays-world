@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/templates/template_fence_side",
+	"textures": {
+		"particle": "block/stone/nether_bricks",
+		"planks": "block/stone/nether_bricks"
+	}
+}

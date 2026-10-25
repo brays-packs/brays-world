@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_fence_gate",
+  "textures": {
+    "planks": "minecraft:block/planks/dark_oak/dark_oak_fence",
+	"particle": "minecraft:block/planks/dark_oak/dark_oak_fence"
+  }
+}

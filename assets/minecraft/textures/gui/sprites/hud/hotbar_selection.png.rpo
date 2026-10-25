@@ -1,0 +1,12 @@
+{
+    condition: "braysWorld.gui.hotbarSelectionColor.red",
+    fallbacks: [
+      "assets/minecraft/textures/gui/sprites/hud/hotbar_selection/hotbar_orange.png",
+	  "assets/minecraft/textures/gui/sprites/hud/hotbar_selection/hotbar_yellow.png",
+	  "assets/minecraft/textures/gui/sprites/hud/hotbar_selection/hotbar_green.png",
+	  "assets/minecraft/textures/gui/sprites/hud/hotbar_selection/hotbar_blue.png",
+	  "assets/minecraft/textures/gui/sprites/hud/hotbar_selection/hotbar_purple.png",
+	  "assets/minecraft/textures/gui/sprites/hud/hotbar_selection/hotbar_rainbow.png",
+	  "assets/minecraft/textures/gui/sprites/hud/hotbar_selection/hotbar_black.png",
+    ]
+}

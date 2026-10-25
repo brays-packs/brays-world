@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_fence_post",
+  "textures": {
+    "planks": "minecraft:block/planks/warped/warped_fence",
+	"particle": "minecraft:block/planks/warped/warped_fence"
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/warped_fungus"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 2, 0],
+			"scale": [1.05, 1, 1]
+		}
+	}
+}

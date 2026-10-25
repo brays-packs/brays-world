@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/templates/template_inner_stairs_planks_top",
+  "textures": {
+	"particle": "block/planks/warped/warped_planks1",
+	"planks": "block/planks/warped/warped_planks1",
+	"flat": "block/planks/warped/warped_planks1_180",
+	"planks_diag": "block/planks/warped/warped_planks_diag4"
+  }
+}

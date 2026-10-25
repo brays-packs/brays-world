@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed",
+          "gui",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/flower/orange_tulip"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/flower/orange_tulip_hand"
+    }
+  }
+}

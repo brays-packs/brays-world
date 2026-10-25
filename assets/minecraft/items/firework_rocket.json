@@ -1,0 +1,1241 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:fireworks",
+        "cases": [
+          {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [11743532] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [11743532] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [11743532] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [11743532] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [11743532] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 8592669
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [11743532] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [11743532] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [11743532] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [11743532] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [11743532] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 8592669
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [11743532] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [11743532] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [11743532] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [11743532] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [11743532] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 8592669
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [15435844] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [15435844] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [15435844] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [15435844] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [15435844] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 15435844
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [15435844] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [15435844] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [15435844] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [15435844] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [15435844] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 15435844
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [15435844] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [15435844] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [15435844] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [15435844] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [15435844] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 15435844
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [14602026] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [14602026] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [14602026] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [14602026] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [14602026] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 14602026
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [14602026] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [14602026] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [14602026] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [14602026] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [14602026] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 14602026
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [14602026] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [14602026] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [14602026] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [14602026] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [14602026] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 14602026
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [4312372] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [4312372] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [4312372] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [4312372] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [4312372] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 4312372
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [4312372] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [4312372] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [4312372] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [4312372] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [4312372] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 4312372
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [4312372] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [4312372] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [4312372] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [4312372] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [4312372] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 4312372
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [3887386] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [3887386] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [3887386] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [3887386] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [3887386] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 3887386
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [3887386] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [3887386] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [3887386] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [3887386] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [3887386] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 3887386
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [3887386] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [3887386] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [3887386] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [3887386] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [3887386] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 3887386
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [6719955] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [6719955] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [6719955] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [6719955] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [6719955] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 6719955
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [6719955] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [6719955] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [6719955] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [6719955] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [6719955] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 6719955
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [6719955] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [6719955] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [6719955] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [6719955] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [6719955] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 6719955
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [2651799] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [2651799] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [2651799] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [2651799] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [2651799] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 2651799
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [2651799] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [2651799] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [2651799] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [2651799] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [2651799] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 2651799
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [2651799] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [2651799] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [2651799] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [2651799] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [2651799] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 2651799
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [2437522] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [2437522] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [2437522] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [2437522] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [2437522] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 2437522
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [2437522] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [2437522] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [2437522] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [2437522] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [2437522] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 2437522
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [2437522] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [2437522] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [2437522] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [2437522] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [2437522] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 2437522
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [8073150] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [8073150] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [8073150] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [8073150] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [8073150] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 8073150
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [8073150] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [8073150] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [8073150] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [8073150] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [8073150] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 8073150
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [8073150] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [8073150] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [8073150] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [8073150] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [8073150] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 8073150
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [12801229] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [12801229] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [12801229] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [12801229] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [12801229] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 12801229
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [12801229] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [12801229] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [12801229] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [12801229] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [12801229] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 12801229
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [12801229] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [12801229] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [12801229] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [12801229] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [12801229] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 12801229
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [14188952] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [14188952] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [14188952] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [14188952] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [14188952] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 14188952
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [14188952] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [14188952] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [14188952] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [14188952] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [14188952] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 14188952
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [14188952] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [14188952] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [14188952] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [14188952] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [14188952] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 14188952
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [15790320] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [15790320] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [15790320] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [15790320] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [15790320] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 15531263
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [15790320] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [15790320] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [15790320] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [15790320] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [15790320] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 15531263
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [15790320] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [15790320] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [15790320] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [15790320] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [15790320] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 15531263
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [11250603] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [11250603] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [11250603] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [11250603] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [11250603] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 11250603
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [11250603] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [11250603] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [11250603] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [11250603] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [11250603] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 11250603
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [11250603] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [11250603] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [11250603] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [11250603] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [11250603] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 11250603
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [4408131] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [4408131] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [4408131] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [4408131] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [4408131] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 4408131
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [4408131] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [4408131] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [4408131] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [4408131] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [4408131] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 4408131
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [4408131] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [4408131] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [4408131] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [4408131] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [4408131] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 4408131
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [1973019] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [1973019] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [1973019] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [1973019] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [1973019] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 1973019
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [1973019] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [1973019] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [1973019] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [1973019] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [1973019] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 1973019
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [1973019] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [1973019] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [1973019] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [1973019] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [1973019] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 1973019
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [5320730] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "large_ball","colors": [5320730] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "star","colors": [5320730] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "creeper","colors": [5320730] }],"flight_duration": 1},
+			  {"explosions": [{"shape": "burst","colors": [5320730] }],"flight_duration": 1}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_1",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 5320730
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [5320730] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "large_ball","colors": [5320730] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "star","colors": [5320730] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "creeper","colors": [5320730] }],"flight_duration": 2},
+			  {"explosions": [{"shape": "burst","colors": [5320730] }],"flight_duration": 2}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_2",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 5320730
+                }
+              ]
+            }
+          },
+		  {
+            "when": [
+              {"explosions": [{"shape": "small_ball","colors": [5320730] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "large_ball","colors": [5320730] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "star","colors": [5320730] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "creeper","colors": [5320730] }],"flight_duration": 3},
+			  {"explosions": [{"shape": "burst","colors": [5320730] }],"flight_duration": 3}
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/rockets/firework_rocket_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 5320730
+                }
+              ]
+            }
+          },
+		  {
+        "when": {
+          "flight_duration": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/rockets/firework_rocket_1",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:custom_model_data",
+              "index": 1,
+              "default": 11743532
+            }
+          ]
+        }
+      },
+		  {
+        "when": {
+          "flight_duration": 2
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/rockets/firework_rocket_2",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:custom_model_data",
+              "index": 1,
+              "default": 11743532
+            }
+          ]
+        }
+      },
+		  {
+        "when": {
+          "flight_duration": 3
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/rockets/firework_rocket_3",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:custom_model_data",
+              "index": 1,
+              "default": 11743532
+            }
+          ]
+        }
+      }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/rockets/firework_rocket",
+		  "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:custom_model_data",
+                  "index": 1,
+                  "default": 11743532
+                }
+              ]
+        }
+      }
+    ]
+  }
+}

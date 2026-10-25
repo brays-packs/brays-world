@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/templates/template_outer_stairs_planks_top",
+  "textures": {
+	"particle": "block/planks/cherry/cherry_planks1",
+	"planks": "block/planks/cherry/cherry_planks1",
+	"flat": "block/planks/cherry/cherry_planks1_180",
+	"planks_diag": "block/planks/cherry/cherry_planks_diag3"
+  }
+}

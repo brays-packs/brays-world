@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/foliage/template_leaf_litter_1_height2",
+  "textures": {
+    "texture": "minecraft:block/foliage/leaf_litter1"
+  }
+}

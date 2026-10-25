@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/foliage/potted_red_mushroom1", "weight": 1},
+	{"model": "minecraft:block/foliage/potted_red_mushroom2", "weight": 1}
+	]
+  }
+}

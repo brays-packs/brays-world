@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/ores/gilded_blackstone1"},
+	{"model": "minecraft:block/ores/gilded_blackstone2"},
+	{"model": "minecraft:block/ores/gilded_blackstone3"}
+		]
+  }
+}

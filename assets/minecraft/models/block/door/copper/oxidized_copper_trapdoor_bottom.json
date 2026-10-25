@@ -1,0 +1,10 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "block/door/copper/copper_trapdoor_bottom",
+	"textures": {
+		"particle": "block/door/copper/oxidized_copper_trapdoor",
+		"trapdoor": "block/door/copper/oxidized_copper_trapdoor",
+		"side": "block/door/copper/oxidized_copper_trapdoor_side"
+		
+	}
+}

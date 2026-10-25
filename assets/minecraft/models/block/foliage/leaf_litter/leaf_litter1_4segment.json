@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/foliage/leaf_litter/template_4segment",
+  "textures": {
+    "texture": "minecraft:block/foliage/leaf_litter1"
+  }
+}

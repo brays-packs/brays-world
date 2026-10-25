@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/iron_bars",
+  "textures": {
+    "layer0": "minecraft:block/copper/waxed_copper_bars"
+  }
+}

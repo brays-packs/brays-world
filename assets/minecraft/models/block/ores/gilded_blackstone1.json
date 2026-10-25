@@ -1,0 +1,8 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/templates/cube_all",
+	"textures": {
+		"particle": "block/ores/gilded_blackstone1",
+		"all": "block/ores/gilded_blackstone1"
+	}
+}

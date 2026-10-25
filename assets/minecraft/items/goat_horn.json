@@ -1,0 +1,32 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/goat_horn_2d"
+				},
+				"when": [
+					"gui",
+					"fixed",
+					"ground"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:condition",
+			"property": "minecraft:using_item",
+			"on_false": {
+				"model": "minecraft:item/goat_horn",
+				"type": "minecraft:model"
+			},
+			"on_true": {
+				"property": "minecraft:display_context",
+				"type": "minecraft:model",
+				"model": "minecraft:item/tooting_goat_horn"
+			}
+		}
+	}
+}

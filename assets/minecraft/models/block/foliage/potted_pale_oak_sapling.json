@@ -1,0 +1,9 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "block/foliage/template_potted_sapling",
+	"textures": {
+		"soil": "block/dirt/dirt1",
+		"tree": "block/foliage/pale_oak_mini",
+		"sapling": "block/foliage/pale_oak_sapling"
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "snowy=false": [
+	{"model": "minecraft:block/grass_block/podzol", "weight": 150},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_red1", "weight": 1},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_brown1", "weight": 2},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_red2", "weight": 1},
+	{"model": "minecraft:block/grass_block/podzol", "y": 90, "weight": 250},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_red1", "y": 90, "weight": 1},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_brown1", "y": 90, "weight": 2},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_red2", "y": 90, "weight": 1},
+	{"model": "minecraft:block/grass_block/podzol", "y": 180, "weight": 250},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_red1", "y": 180, "weight": 1},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_brown1", "y": 180, "weight": 2},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_red2", "y": 180, "weight": 1},
+	{"model": "minecraft:block/grass_block/podzol", "y": 270, "weight": 250},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_red1", "y": 270, "weight": 1},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_brown1", "y": 270, "weight": 2},
+	{"model": "minecraft:block/grass_block/podzol_mushroom_red2", "y": 270, "weight": 1}
+	],
+    "snowy=true": {
+      "model": "minecraft:block/grass_block_snow"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall/wall_inventory",
+  "textures": {
+    "wall": "minecraft:block/stone/mossy_cobblestone"
+  }
+}

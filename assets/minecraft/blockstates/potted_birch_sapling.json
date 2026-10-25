@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/foliage/potted_birch_sapling", "weight": 1, "y": 0},
+	{"model": "minecraft:block/foliage/potted_birch_sapling", "weight": 1, "y": 90},
+	{"model": "minecraft:block/foliage/potted_birch_sapling", "weight": 1, "y": 180},
+	{"model": "minecraft:block/foliage/potted_birch_sapling", "weight": 1, "y": 270}
+	]
+  }
+}

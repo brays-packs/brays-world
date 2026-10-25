@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_stairs_top_planks_ns",
+  "textures": {
+	"particle": "block/planks/warped/warped_planks1",
+	"planks": "block/planks/warped/warped_planks1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    condition: "!braysWorld.freshAnimations.useFreshAnimations | !braysWorld.freshAnimations.chickens",
+	fallbacks: [
+      "assets/minecraft/optifine/cem/fresh_animations/cold_chicken.jem",
+    ]
+}

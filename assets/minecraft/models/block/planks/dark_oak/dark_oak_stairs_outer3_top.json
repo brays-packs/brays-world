@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/templates/template_outer_stairs_planks_top",
+  "textures": {
+	"particle": "block/planks/dark_oak/dark_oak_planks1",
+	"planks": "block/planks/dark_oak/dark_oak_planks1",
+	"flat": "block/planks/dark_oak/dark_oak_planks1_180",
+	"planks_diag": "block/planks/dark_oak/dark_oak_planks_diag3"
+  }
+}

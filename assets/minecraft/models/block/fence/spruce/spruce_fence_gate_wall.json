@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_fence_gate_wall",
+  "textures": {
+    "planks": "minecraft:block/planks/spruce/spruce_fence",
+	"particle": "minecraft:block/planks/spruce/spruce_fence"
+  }
+}

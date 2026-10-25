@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/copper/waxed_oxidized_copper_chain_inventory"
+        },
+        "when": [
+          "gui",
+          "fixed",
+		  "ground"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/copper/oxidized_copper_chain_inventory"
+    },
+    "property": "minecraft:display_context"
+  }
+}

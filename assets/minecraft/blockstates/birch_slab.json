@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "type=bottom": [
+	{"model": "minecraft:block/planks/birch/birch_slab1_rot90"},
+	{"model": "minecraft:block/planks/birch/birch_slab2_rot90"}
+    ],
+    "type=double": [
+	{"model": "minecraft:block/planks/birch/birch_slab_double1_rot90"},
+	{"model": "minecraft:block/planks/birch/birch_slab_double2_rot90"}
+    ],
+    "type=top": [
+	{"model": "minecraft:block/planks/birch/birch_slab_top1_rot90"},
+	{"model": "minecraft:block/planks/birch/birch_slab_top2_rot90"}
+    ]
+  }
+}

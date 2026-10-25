@@ -1,0 +1,568 @@
+{
+	"credit": "Bray was here :)",
+	"textures": {
+		"particle": "block/moss/moss_block1",
+		"moss": "block/moss/moss_block1"
+	},
+	"elements": [
+		{
+			"from": [-0.025, 0, -0.025],
+			"to": [16.025, 1, 16.025],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#moss", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 1], "texture": "#moss", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#moss", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 1], "texture": "#moss", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#moss"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#moss", "cullface": "down"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_0",
+			"from": [8, -3, -0.025],
+			"to": [16.025, 0, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [0, 1, 8, 4], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [0, 1, 8, 4], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_1",
+			"from": [-0.025, -2, -0.025],
+			"to": [8, 0, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [8, 1, 16, 3], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [8, 1, 16, 3], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_2",
+			"from": [-0.025, -3, -0.025],
+			"to": [7, -2, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [9, 3, 16, 4], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [9, 3, 16, 4], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_3",
+			"from": [13, -4, -0.025],
+			"to": [16.025, -3, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [0, 4, 3, 5], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [0, 4, 3, 5], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_4",
+			"from": [11, -4, -0.025],
+			"to": [12, -3, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [4, 4, 5, 5], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [4, 4, 5, 5], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_5",
+			"from": [9, -4, -0.025],
+			"to": [10, -3, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [6, 4, 7, 5], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [6, 4, 7, 5], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_6",
+			"from": [6, -4, -0.025],
+			"to": [7, -3, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [9, 4, 10, 5], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [9, 4, 10, 5], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_7",
+			"from": [-0.025, -4, -0.025],
+			"to": [5, -3, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [11, 4, 16, 5], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [11, 4, 16, 5], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_8",
+			"from": [15, -6, -0.025],
+			"to": [16.025, -4, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [0, 5, 1, 7], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [0, 5, 1, 7], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_9",
+			"from": [13, -5, -0.025],
+			"to": [14, -4, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [2, 5, 3, 6], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [2, 5, 3, 6], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_10",
+			"from": [3, -5, -0.025],
+			"to": [4, -4, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [12, 5, 13, 6], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [12, 5, 13, 6], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_11",
+			"from": [-0.025, -5, -0.025],
+			"to": [2, -4, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [14, 5, 16, 6], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [14, 5, 16, 6], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_12",
+			"from": [1, -6, -0.025],
+			"to": [2, -5, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -3.25, -0.025]},
+			"faces": {
+				"north": {"uv": [14, 6, 15, 7], "texture": "#moss", "cullface": "north"},
+				"south": {"uv": [14, 6, 15, 7], "texture": "#moss", "cullface": "north"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_1",
+			"from": [-0.025, -3, -0.025],
+			"to": [-0.025, 0, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [8, 1, 0, 4], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [0, 1, 8, 4], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_2",
+			"from": [-0.025, -2, 8],
+			"to": [-0.025, 0, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [16, 1, 8, 3], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [8, 1, 16, 3], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang3_3",
+			"from": [-0.025, -3, 9],
+			"to": [-0.025, -2, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [16, 3, 9, 4], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [9, 3, 16, 4], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_4",
+			"from": [-0.025, -4, -0.025],
+			"to": [-0.025, -3, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [3, 4, 0, 5], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [0, 4, 3, 5], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_5",
+			"from": [-0.025, -4, 4],
+			"to": [-0.025, -3, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [5, 4, 4, 5], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [4, 4, 5, 5], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_6",
+			"from": [-0.025, -4, 6],
+			"to": [-0.025, -3, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [7, 4, 6, 5], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [6, 4, 7, 5], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_7",
+			"from": [-0.025, -4, 9],
+			"to": [-0.025, -3, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [10, 4, 9, 5], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [9, 4, 10, 5], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_8",
+			"from": [-0.025, -4, 11],
+			"to": [-0.025, -3, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [16, 4, 11, 5], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [11, 4, 16, 5], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_9",
+			"from": [-0.025, -6, -0.025],
+			"to": [-0.025, -4, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [1, 5, 0, 7], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [0, 5, 1, 7], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_10",
+			"from": [-0.025, -5, 2],
+			"to": [-0.025, -4, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [3, 5, 2, 6], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [2, 5, 3, 6], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_11",
+			"from": [-0.025, -5, 12],
+			"to": [-0.025, -4, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [13, 5, 12, 6], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [12, 5, 13, 6], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_12",
+			"from": [-0.025, -5, 14],
+			"to": [-0.025, -4, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [16, 5, 14, 6], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [14, 5, 16, 6], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_13",
+			"from": [-0.025, -6, 14],
+			"to": [-0.025, -5, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.025, -3.25, 7.75]},
+			"faces": {
+				"east": {"uv": [15, 6, 14, 7], "texture": "#moss", "cullface": "west"},
+				"west": {"uv": [14, 6, 15, 7], "texture": "#moss", "cullface": "west"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_2",
+			"from": [-0.025, -3, 16.025],
+			"to": [8, 0, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [8, 1, 0, 4], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [0, 1, 8, 4], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang3_3",
+			"from": [8, -2, 16.025],
+			"to": [16.025, 0, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [16, 1, 8, 3], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [8, 1, 16, 3], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang4_4",
+			"from": [9, -3, 16.025],
+			"to": [16.025, -2, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [16, 3, 9, 4], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [9, 3, 16, 4], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_5",
+			"from": [-0.025, -4, 16.025],
+			"to": [3, -3, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [3, 4, 0, 5], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [0, 4, 3, 5], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_6",
+			"from": [4, -4, 16.025],
+			"to": [5, -3, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [5, 4, 4, 5], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [4, 4, 5, 5], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_7",
+			"from": [6, -4, 16.025],
+			"to": [7, -3, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [7, 4, 6, 5], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [6, 4, 7, 5], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_8",
+			"from": [9, -4, 16.025],
+			"to": [10, -3, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [10, 4, 9, 5], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [9, 4, 10, 5], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_9",
+			"from": [11, -4, 16.025],
+			"to": [16.025, -3, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [16, 4, 11, 5], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [11, 4, 16, 5], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_10",
+			"from": [-0.025, -6, 16.025],
+			"to": [1, -4, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [1, 5, 0, 7], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [0, 5, 1, 7], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_11",
+			"from": [2, -5, 16.025],
+			"to": [3, -4, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [3, 5, 2, 6], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [2, 5, 3, 6], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_12",
+			"from": [12, -5, 16.025],
+			"to": [13, -4, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [13, 5, 12, 6], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [12, 5, 13, 6], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_13",
+			"from": [14, -5, 16.025],
+			"to": [16.025, -4, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [16, 5, 14, 6], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [14, 5, 16, 6], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_14",
+			"from": [14, -6, 16.025],
+			"to": [15, -5, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, -3.25, 16.025]},
+			"faces": {
+				"north": {"uv": [15, 6, 14, 7], "texture": "#moss", "cullface": "south"},
+				"south": {"uv": [14, 6, 15, 7], "texture": "#moss", "cullface": "south"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang3_3",
+			"from": [16.025, -3, 8],
+			"to": [16.025, 0, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [0, 1, 8, 4], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [8, 1, 0, 4], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang4_4",
+			"from": [16.025, -2, -0.025],
+			"to": [16.025, 0, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [8, 1, 16, 3], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [16, 1, 8, 3], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang5_5",
+			"from": [16.025, -3, -0.025],
+			"to": [16.025, -2, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [9, 3, 16, 4], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [16, 3, 9, 4], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_6",
+			"from": [16.025, -4, 13],
+			"to": [16.025, -3, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [0, 4, 3, 5], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [3, 4, 0, 5], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_7",
+			"from": [16.025, -4, 11],
+			"to": [16.025, -3, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [4, 4, 5, 5], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [5, 4, 4, 5], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_8",
+			"from": [16.025, -4, 9],
+			"to": [16.025, -3, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [6, 4, 7, 5], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [7, 4, 6, 5], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_9",
+			"from": [16.025, -4, 6],
+			"to": [16.025, -3, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [9, 4, 10, 5], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [10, 4, 9, 5], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_10",
+			"from": [16.025, -4, -0.025],
+			"to": [16.025, -3, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [11, 4, 16, 5], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [16, 4, 11, 5], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_11",
+			"from": [16.025, -6, 15],
+			"to": [16.025, -4, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [0, 5, 1, 7], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [1, 5, 0, 7], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_12",
+			"from": [16.025, -5, 13],
+			"to": [16.025, -4, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [2, 5, 3, 6], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [3, 5, 2, 6], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_13",
+			"from": [16.025, -5, 3],
+			"to": [16.025, -4, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [12, 5, 13, 6], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [13, 5, 12, 6], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_14",
+			"from": [16.025, -5, -0.025],
+			"to": [16.025, -4, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [14, 5, 16, 6], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [16, 5, 14, 6], "texture": "#moss", "cullface": "east"}
+			}
+		},
+		{
+			"name": "moss_carpet_overhang2_15",
+			"from": [16.025, -6, 1],
+			"to": [16.025, -5, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.025, -3.25, 8.25]},
+			"faces": {
+				"east": {"uv": [14, 6, 15, 7], "texture": "#moss", "cullface": "east"},
+				"west": {"uv": [15, 6, 14, 7], "texture": "#moss", "cullface": "east"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "moss_carpet_overhang2",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+		},
+		{
+			"name": "moss_carpet_overhang2",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+		},
+		{
+			"name": "moss_carpet_overhang2",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+		},
+		{
+			"name": "moss_carpet_overhang2",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+		}
+	]
+}

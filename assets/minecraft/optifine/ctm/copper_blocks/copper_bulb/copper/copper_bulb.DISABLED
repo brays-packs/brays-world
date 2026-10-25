@@ -1,0 +1,4 @@
+matchBlocks=copper_bulb waxed_copper_bulb
+method=ctm_compact
+tiles=0-4
+connect=block

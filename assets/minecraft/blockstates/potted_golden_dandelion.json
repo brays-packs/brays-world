@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+	{
+      "model": "minecraft:block/flowers/potted_golden_dandelion1"
+    },
+	{
+      "model": "minecraft:block/flowers/potted_golden_dandelion2"
+    }
+	]
+  }
+}

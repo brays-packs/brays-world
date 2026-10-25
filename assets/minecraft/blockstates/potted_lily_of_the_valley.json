@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": [
+		{"model": "minecraft:block/flowers/potted_lily_of_the_valley1"}
+    ]
+  }
+}

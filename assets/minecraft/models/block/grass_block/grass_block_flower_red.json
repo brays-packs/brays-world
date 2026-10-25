@@ -1,0 +1,175 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"parent": "block/block",
+	"textures": {
+		"top": "block/grass_block/grass_block_top",
+		"side": "block/grass_block/grass_block_side",
+		"particle": "block/dirt/dirt2",
+		"bottom": "block/dirt/dirt2",
+		"overlay": "block/grass_block/grass_block_side_overlay",
+		"flower": "block/grass_block/grass_flower2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "east", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "south", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "west", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 10, 0],
+			"to": [16, 16, 0],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 16, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 6], "texture": "#overlay", "cullface": "north", "tintindex": 0}
+			}
+		},
+		{
+			"from": [16, 10, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [16, 16, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 6], "texture": "#overlay", "cullface": "east", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 10, 16],
+			"to": [16, 16, 16],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 16, 16]},
+			"faces": {
+				"south": {"uv": [0, 0, 16, 6], "texture": "#overlay", "cullface": "south", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 10, 0],
+			"to": [0, 16, 16],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [0, 16, 8]},
+			"faces": {
+				"west": {"uv": [0, 0, 16, 6], "texture": "#overlay", "cullface": "west", "tintindex": 0}
+			}
+		},
+		{
+			"name": "grass_flower2_0",
+			"from": [8, 16.15, 2],
+			"to": [9, 16.15, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16.25, 0]},
+			"faces": {
+				"up": {"uv": [8, 2, 9, 5], "texture": "#flower", "cullface": "up"},
+				"down": {"uv": [8, 5, 9, 2], "texture": "#flower", "cullface": "up"}
+			}
+		},
+		{
+			"name": "grass_flower2_1",
+			"from": [7, 16.15, 3],
+			"to": [8, 16.15, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16.25, 0]},
+			"faces": {
+				"up": {"uv": [7, 3, 8, 4], "texture": "#flower", "cullface": "up"},
+				"down": {"uv": [7, 4, 8, 3], "texture": "#flower", "cullface": "up"}
+			}
+		},
+		{
+			"name": "grass_flower2_2",
+			"from": [9, 16.15, 3],
+			"to": [10, 16.15, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16.25, 0]},
+			"faces": {
+				"up": {"uv": [9, 3, 10, 4], "texture": "#flower", "cullface": "up"},
+				"down": {"uv": [9, 4, 10, 3], "texture": "#flower", "cullface": "up"}
+			}
+		},
+		{
+			"name": "grass_flower2_3",
+			"from": [12, 16.15, 6],
+			"to": [13, 16.15, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16.25, 0]},
+			"faces": {
+				"up": {"uv": [12, 6, 13, 9], "texture": "#flower", "cullface": "up"},
+				"down": {"uv": [12, 9, 13, 6], "texture": "#flower", "cullface": "up"}
+			}
+		},
+		{
+			"name": "grass_flower2_4",
+			"from": [11, 16.15, 7],
+			"to": [12, 16.15, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16.25, 0]},
+			"faces": {
+				"up": {"uv": [11, 7, 12, 8], "texture": "#flower", "cullface": "up"},
+				"down": {"uv": [11, 8, 12, 7], "texture": "#flower", "cullface": "up"}
+			}
+		},
+		{
+			"name": "grass_flower2_5",
+			"from": [13, 16.15, 7],
+			"to": [14, 16.15, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16.25, 0]},
+			"faces": {
+				"up": {"uv": [13, 7, 14, 8], "texture": "#flower", "cullface": "up"},
+				"down": {"uv": [13, 8, 14, 7], "texture": "#flower", "cullface": "up"}
+			}
+		},
+		{
+			"name": "grass_flower2_6",
+			"from": [3, 16.15, 11],
+			"to": [4, 16.15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16.25, 0]},
+			"faces": {
+				"up": {"uv": [3, 11, 4, 14], "texture": "#flower", "cullface": "up"},
+				"down": {"uv": [3, 14, 4, 11], "texture": "#flower", "cullface": "up"}
+			}
+		},
+		{
+			"name": "grass_flower2_7",
+			"from": [2, 16.15, 12],
+			"to": [3, 16.15, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16.25, 0]},
+			"faces": {
+				"up": {"uv": [2, 12, 3, 13], "texture": "#flower", "cullface": "up"},
+				"down": {"uv": [2, 13, 3, 12], "texture": "#flower", "cullface": "up"}
+			}
+		},
+		{
+			"name": "grass_flower2_8",
+			"from": [4, 16.15, 12],
+			"to": [5, 16.15, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16.25, 0]},
+			"faces": {
+				"up": {"uv": [4, 12, 5, 13], "texture": "#flower", "cullface": "up"},
+				"down": {"uv": [4, 13, 5, 12], "texture": "#flower", "cullface": "up"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		{
+			"name": "fluff",
+			"origin": [8, 16, 0],
+			"color": 0,
+			"children": [2, 3, 4, 5]
+		},
+		{
+			"name": "grass_flower2",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [6, 7, 8, 9, 10, 11, 12, 13, 14]
+		}
+	]
+}

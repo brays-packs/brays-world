@@ -1,0 +1,31 @@
+{
+	"credit": "Bray was here :)",
+	"textures": {
+		"bottom": "block/cake/cake_bottom",
+		"top": "block/cake/cake_top",
+		"particle": "block/cake/cake_side",
+		"side": "block/cake/cake_side"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 7, 15],
+			"faces": {
+				"north": {"uv": [1, 9, 15, 16], "texture": "#side"},
+				"east": {"uv": [1, 9, 15, 16], "texture": "#side"},
+				"south": {"uv": [1, 9, 15, 16], "texture": "#side"},
+				"west": {"uv": [1, 9, 15, 16], "texture": "#side"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#top"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [3, 7.025, 3],
+			"to": [13, 7.025, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 7, 3]},
+			"faces": {
+				"up": {"uv": [13, 3, 3, 13], "texture": "#bottom"}
+			}
+		}
+	]
+}

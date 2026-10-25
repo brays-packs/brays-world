@@ -1,0 +1,99 @@
+{
+	"credit": "Bray was here :)",
+	"textureSize": [32, 32],
+	"models": [
+		{
+			"part": "back",
+			"id": "back",
+			"invertAxis": "xy",
+			"translate": [0, -3.5, -7],
+			"rotate": [135, -90, 0],
+			"boxes": [
+				{
+					"coordinates": [0, 1.5, 5, 0, 4, 4],
+					"uvEast": [0, 5, 5, 10],
+					"uvWest": [5, 5, 10, 10]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0,
+					"this.ry": 0,
+					"this.sy": 1.25,
+					"this.sz": 1.25,
+					"this.ty": 4.375,
+					"this.tz": -8.75
+				}
+			]
+		},
+		{
+			"part": "cross_1",
+			"id": "cross_1",
+			"invertAxis": "xy",
+			"translate": [0, -3.5, 4],
+			"rotate": [135, -90, 0],
+			"boxes": [
+				{
+					"coordinates": [9, 1.5, -4, 3, 4, 0],
+					"uvNorth": [0, 0, 4, 5],
+					"uvSouth": [28, 0, 32, 5]
+				},
+				{
+					"coordinates": [-4, 1.5, -4, 3, 4, 0],
+					"uvNorth": [13, 0, 16, 5],
+					"uvSouth": [16, 0, 19, 5]
+				}
+			],
+			"submodels": [
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [5.35983, 3.57089, -4.07089],
+					"rotate": [0, 90, 0],
+					"boxes": [
+						{
+							"coordinates": [-0.375, -0.375, -6.5, 0.6, 0.6, 13],
+							"uvNorth": [12, 2, 13, 3],
+							"uvEast": [0, 2, 13, 3],
+							"uvSouth": [0, 2, 1, 3],
+							"uvWest": [13, 2, 0, 3],
+							"uvUp": [10, 5, 11, 18],
+							"uvDown": [10, 18, 11, 5]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0,
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "cross_2",
+			"id": "cross_2",
+			"invertAxis": "xy",
+			"translate": [0, -3.5, 4],
+			"rotate": [45, -90, 0],
+			"boxes": [
+				{
+					"coordinates": [9, 1.5, -4, 3, 4, 0],
+					"uvNorth": [0, 0, 4, 5],
+					"uvSouth": [28, 0, 32, 5]
+				},
+				{
+					"coordinates": [-4, 1.5, -4, 3, 4, 0],
+					"uvNorth": [13, 0, 16, 5],
+					"uvSouth": [16, 0, 19, 5]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0,
+					"this.ry": 0
+				}
+			]
+		}
+	]
+}

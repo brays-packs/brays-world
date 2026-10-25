@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/flowers/flower_cross_emissive",
+  "textures": {
+    "flower1": "minecraft:block/flowers/open_eyeblossom1",
+	"emissive1": "minecraft:block/flowers/open_eyeblossom1_emissive",
+	"particle": "minecraft:block/flowers/open_eyeblossom1"
+  }
+}

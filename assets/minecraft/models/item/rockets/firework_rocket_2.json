@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/bray_generated",
+  "textures": {
+    "layer0": "minecraft:item/rockets/firework_rocket_2",
+    "layer1": "minecraft:item/rockets/firework_rocket_2_overlay"
+  },
+  	"display": {
+		"gui": {
+            "rotation": [ 0, 0, 0],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.875, 0.875, 0.875 ]
+        },
+		"ground": {
+            "rotation": [ 0, 0, 45 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 0.55, 0.55, 0.55 ]
+        },
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 45],
+			"translation": [0, 0, 1.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -45],
+			"translation": [0, 0, 1.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [30, 90, 0],
+			"translation": [3, 1.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -30],
+			"translation": [3, 1.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"rotation": [0, 0, 45],
+			"translation": [-0.5, -2.5, 7.5],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

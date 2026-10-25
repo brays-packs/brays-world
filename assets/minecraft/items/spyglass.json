@@ -1,0 +1,39 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/spyglass_binoculars_2d"
+        },
+        "when": [
+          "gui",
+          "fixed",
+          "ground"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:main_hand",
+      "cases": [
+        {
+          "when": "left",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/spyglass_binoculars_offhand"
+          }
+        },
+        {
+          "when": "right",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/spyglass_binoculars"
+          }
+        }
+      ]
+    },
+    "property": "minecraft:display_context"
+  }
+}

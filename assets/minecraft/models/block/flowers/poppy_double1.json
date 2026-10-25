@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/flowers/flower_cross_double",
+  "textures": {
+	"particle": "minecraft:block/flowers/poppy1",
+    "flower1": "minecraft:block/flowers/poppy1",
+	"flower2": "minecraft:block/flowers/poppy4"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_slab_top_planks",
+  "textures": {
+    "particle": "minecraft:block/planks/dark_oak/dark_oak_planks1",
+	"planks": "minecraft:block/planks/dark_oak/dark_oak_planks1"
+  }
+}

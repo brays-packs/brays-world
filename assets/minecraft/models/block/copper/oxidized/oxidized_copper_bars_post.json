@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/iron_bars_post",
+  "textures": {
+    "particle": "minecraft:block/copper/oxidized_copper_bars",
+	"bars": "minecraft:block/copper/oxidized_copper_bars"
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"credit": "Bray was here :)",
+	"textures": {
+		"particle": "block/planks/oak_planks1",
+		"planks": "block/planks/oak_planks1"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#planks", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#planks", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#planks", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#planks", "cullface": "west"},
+				"up": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#planks", "cullface": "up"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#planks"}
+			}
+		}
+	]
+}

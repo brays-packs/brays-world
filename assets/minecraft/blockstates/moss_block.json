@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+		{"model": "minecraft:block/moss/moss_block1","weight": 20},
+		{"model": "minecraft:block/moss/moss_block2","weight": 1},
+		{"model": "minecraft:block/moss/moss_block3","weight": 1},
+		{"model": "minecraft:block/moss/moss_block4","weight": 2},
+		{"model": "minecraft:block/moss/moss_block1", "y":90, "x":90,"weight": 20},
+		{"model": "minecraft:block/moss/moss_block2", "y":90, "x":90,"weight": 1},
+		{"model": "minecraft:block/moss/moss_block3", "y":90, "x":90,"weight": 1},
+		{"model": "minecraft:block/moss/moss_block4", "y":90, "x":90,"weight": 2},
+		{"model": "minecraft:block/moss/moss_block1", "y":180, "x":180,"weight": 20},
+		{"model": "minecraft:block/moss/moss_block2", "y":180, "x":180,"weight": 1},
+		{"model": "minecraft:block/moss/moss_block3", "y":180, "x":180,"weight": 1},
+		{"model": "minecraft:block/moss/moss_block4", "y":180, "x":180,"weight": 2},
+		{"model": "minecraft:block/moss/moss_block1", "y":270, "x":270,"weight": 20},
+		{"model": "minecraft:block/moss/moss_block2", "y":270, "x":270,"weight": 1},
+		{"model": "minecraft:block/moss/moss_block3", "y":270, "x":270,"weight": 1},
+		{"model": "minecraft:block/moss/moss_block4", "y":270, "x":270,"weight": 2}
+		]
+  }
+}

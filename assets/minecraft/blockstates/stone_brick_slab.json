@@ -1,0 +1,28 @@
+{
+  "variants":{
+		"type=bottom":[
+			{"model": "minecraft:block/stone/stone_brick_slab1"},
+			{"model": "minecraft:block/stone/stone_brick_slab2"},
+			{"model": "minecraft:block/stone/stone_brick_slab3"}
+		],
+		"type=double":[
+		{"model": "minecraft:block/stone/stone_bricks1", "weight": 5},
+		{"model": "minecraft:block/stone/stone_bricks2", "weight": 4},
+		{"model": "minecraft:block/stone/stone_bricks3", "weight": 1},
+		{"model": "minecraft:block/stone/stone_bricks4", "weight": 1},
+		{"model": "minecraft:block/stone/stone_bricks5", "weight": 1},
+		{"model": "minecraft:block/stone/stone_bricks6", "weight": 1},
+		{"model": "minecraft:block/stone/stone_bricks1", "weight": 5},
+		{"model": "minecraft:block/stone/stone_bricks2", "weight": 4},
+		{"model": "minecraft:block/stone/stone_bricks3", "weight": 1},
+		{"model": "minecraft:block/stone/stone_bricks4", "weight": 1},
+		{"model": "minecraft:block/stone/stone_bricks5", "weight": 1},
+		{"model": "minecraft:block/stone/stone_bricks6", "weight": 1}
+    ],
+		"type=top":[
+			{"model": "minecraft:block/stone/stone_brick_slab_top1"},
+			{"model": "minecraft:block/stone/stone_brick_slab_top2"},
+			{"model": "minecraft:block/stone/stone_brick_slab_top3"}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+	{
+      "model": "minecraft:block/foliage/potted_dead_bush1"
+    },
+	{
+      "model": "minecraft:block/foliage/potted_dead_bush2"
+    }
+	]
+  }
+}

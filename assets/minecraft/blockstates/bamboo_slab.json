@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": [
+	{"model": "minecraft:block/planks/bamboo/bamboo_slab1_rot90"}
+    ],
+    "type=double": [
+	{"model": "minecraft:block/planks/bamboo/bamboo_slab_double1_rot90"}
+    ],
+    "type=top": [
+	{"model": "minecraft:block/planks/bamboo/bamboo_slab_top1_rot90"}
+    ]
+  }
+}

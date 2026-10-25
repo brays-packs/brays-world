@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/log/template_log",
+  "textures": {
+    "end": "minecraft:block/log/birch_log_top1",
+    "side": "minecraft:block/log/birch_log3",
+	"particle": "minecraft:block/log/birch_log3"
+  }
+}

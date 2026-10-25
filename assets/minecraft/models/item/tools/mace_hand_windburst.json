@@ -1,0 +1,60 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "minecraft:item/mace_hand",
+	"texture_size": [20, 20],
+	"textures": {
+		"0": "item/tools/mace_hand",
+		"1": "item/tools/mace_hand_windcharge",
+		"particle": "item/tools/mace_hand"
+	},
+	"elements": [
+		{
+			"from": [4.5, 9, 3],
+			"to": [11.5, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 9, 4]},
+			"faces": {
+				"north": {"uv": [0, 7.2, 6.4, 13.6], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [0, 6.4, 6.4, 14.4], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 7.2, 6.4, 13.6], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 6.4, 6.4, 14.4], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 6.4, 6.4], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [6.4, 0, 14.4, 6.4], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.75, 10.5, 2.25],
+			"to": [12.25, 14.5, 13.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 9, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 5], "texture": "#1"},
+				"east": {"uv": [6, 0, 16, 5], "texture": "#1"},
+				"south": {"uv": [0, 0, 7, 5], "texture": "#1"},
+				"west": {"uv": [6, 0, 16, 5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [12.2, 14.45, 13.7],
+			"to": [3.8, 10.55, 2.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 9, 4]},
+			"faces": {
+				"north": {"uv": [0, 5, 7, 0], "texture": "#1"},
+				"east": {"uv": [6, 5, 16, 0], "texture": "#1"},
+				"south": {"uv": [0, 5, 7, 0], "texture": "#1"},
+				"west": {"uv": [6, 5, 16, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 0.75, 7],
+			"to": [9, 9, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2, 7]},
+			"faces": {
+				"north": {"uv": [6.4, 6.4, 8.8, 14.4], "texture": "#0"},
+				"east": {"uv": [8.8, 6.4, 11.2, 14.4], "texture": "#0"},
+				"south": {"uv": [11.2, 6.4, 13.6, 14.4], "texture": "#0"},
+				"west": {"uv": [13.6, 6.4, 16, 14.4], "texture": "#0"},
+				"down": {"uv": [8.8, 13.6, 11.2, 14.4], "texture": "#0"}
+			}
+		}
+	]
+}

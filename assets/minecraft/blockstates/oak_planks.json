@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/planks/oak/oak_planks1", "weight": 5},
+	{"model": "minecraft:block/planks/oak/oak_planks2", "weight": 5}
+	]
+    }
+  }

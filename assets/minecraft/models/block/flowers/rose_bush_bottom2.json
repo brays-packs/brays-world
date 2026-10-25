@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/flowers/flower_cross",
+  "textures": {
+    "flower1": "minecraft:block/flowers/rose_bush_bottom2",
+	"particle": "minecraft:block/flowers/rose_bush_bottom2"
+  }
+}

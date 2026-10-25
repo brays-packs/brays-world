@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_wall_inventory",
+  "textures": {
+	"particle": "minecraft:block/cinnabar/cinnabar_bricks",
+    "wall": "minecraft:block/cinnabar/cinnabar_bricks"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "variants": {
+    "snowy=false": [
+    {"model": "minecraft:block/grass_block/grass_block", "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block", "y": 90, "weight": 50},
+    {"model": "minecraft:block/grass_block/grass_block", "y": 180, "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block", "y": 270, "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block2", "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block2", "y": 90, "weight": 50},
+    {"model": "minecraft:block/grass_block/grass_block2", "y": 180, "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block2", "y": 270, "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block3", "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block3", "y": 90, "weight": 50},
+    {"model": "minecraft:block/grass_block/grass_block3", "y": 180, "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block3", "y": 270, "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block4", "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block4", "y": 90, "weight": 50},
+    {"model": "minecraft:block/grass_block/grass_block4", "y": 180, "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block4", "y": 270, "weight": 50},
+	{"model": "minecraft:block/grass_block/grass_block_flower_blue", "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_flower_blue", "y": 90, "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_flower_blue", "y": 180, "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_flower_blue", "y": 270, "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_flower_red", "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_flower_red", "y": 90, "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_flower_red", "y": 180, "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_flower_red", "y": 270, "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_flower_yellow", "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_flower_yellow", "y": 90, "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_flower_yellow", "y": 180, "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_flower_yellow", "y": 270, "weight": 3},
+	{"model": "minecraft:block/grass_block/grass_block_clover", "weight": 7},
+	{"model": "minecraft:block/grass_block/grass_block_clover", "y": 90, "weight": 7},
+	{"model": "minecraft:block/grass_block/grass_block_clover", "y": 180, "weight": 7},
+	{"model": "minecraft:block/grass_block/grass_block_clover", "y": 270, "weight": 7},
+	{"model": "minecraft:block/grass_block/grass_block_clover2", "weight": 7},
+	{"model": "minecraft:block/grass_block/grass_block_clover2", "y": 90, "weight": 7},
+	{"model": "minecraft:block/grass_block/grass_block_clover2", "y": 180, "weight": 7},
+	{"model": "minecraft:block/grass_block/grass_block_clover2", "y": 270, "weight": 7}	
+    ],
+    "snowy=true": {
+      "model": "minecraft:block/grass_block/grass_block_snow"
+    }
+  }
+}

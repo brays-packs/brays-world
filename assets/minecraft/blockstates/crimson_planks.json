@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/planks/crimson/crimson_planks1", "weight": 5},
+	{"model": "minecraft:block/planks/crimson/crimson_planks2", "weight": 5}
+	]
+    }
+  }

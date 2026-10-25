@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/wall/wall_inventory",
+  "textures": {
+    "particle": "minecraft:block/stone/nether_bricks",
+    "wall": "minecraft:block/stone/nether_bricks"
+  }
+}

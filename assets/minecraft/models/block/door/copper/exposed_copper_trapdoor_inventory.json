@@ -1,0 +1,10 @@
+{
+	"format_version": "26.3",
+	"credit": "Bray Was Here :)",
+	"parent": "block/door/copper/copper_trapdoor_inventory",
+	"textures": {
+		"particle": "block/door/copper/exposed_copper_trapdoor",
+		"trapdoor": "block/door/copper/exposed_copper_trapdoor",
+		"side": "block/door/copper/exposed_copper_trapdoor_side"
+	}
+}

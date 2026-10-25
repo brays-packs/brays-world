@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "": [
+      {"model": "minecraft:block/dirt/dirt1", "weight": 3},
+      {"model": "minecraft:block/dirt/dirt1", "y": 90, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt1", "y": 180, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt1", "y": 270, "weight": 3},
+	  {"model": "minecraft:block/dirt/dirt1", "x": 90, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt1", "x": 180, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt1", "x": 270, "weight": 3},
+	  {"model": "minecraft:block/dirt/dirt2", "weight": 3},
+      {"model": "minecraft:block/dirt/dirt2", "y": 90, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt2", "y": 180, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt2", "y": 270, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt2", "x": 90, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt2", "x": 180, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt2", "x": 270, "weight": 3},	  
+	  {"model": "minecraft:block/dirt/dirt4", "weight": 3},
+      {"model": "minecraft:block/dirt/dirt4", "y": 90, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt4", "y": 180, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt4", "y": 270, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt4", "x": 90, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt4", "x": 180, "weight": 3},
+      {"model": "minecraft:block/dirt/dirt4", "x": 270, "weight": 3},
+	  {"model": "minecraft:block/dirt/dirt_stones1", "weight": 1},
+	  {"model": "minecraft:block/dirt/dirt_stones1", "y": 90, "weight": 1},
+	  {"model": "minecraft:block/dirt/dirt_stones1", "y": 180, "weight": 1},
+	  {"model": "minecraft:block/dirt/dirt_stones1", "y": 270, "weight": 1},
+	  {"model": "minecraft:block/dirt/dirt_stones2", "weight": 1},
+	  {"model": "minecraft:block/dirt/dirt_stones2", "y": 90, "weight": 1},
+	  {"model": "minecraft:block/dirt/dirt_stones2", "y": 180, "weight": 1},
+	  {"model": "minecraft:block/dirt/dirt_stones2", "y": 270, "weight": 1}
+    ]
+  }
+}

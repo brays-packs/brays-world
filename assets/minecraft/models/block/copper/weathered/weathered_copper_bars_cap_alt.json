@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/iron_bars_cap_alt",
+  "textures": {
+    "particle": "minecraft:block/copper/weathered_copper_bars",
+	"bars": "minecraft:block/copper/weathered_copper_bars"
+  }
+}

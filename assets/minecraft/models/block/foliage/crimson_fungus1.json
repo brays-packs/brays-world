@@ -1,0 +1,121 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "block/foliage/crimson_fungus",
+		"fungus": "block/foliage/crimson_fungus"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 3, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
+			"faces": {
+				"north": {"uv": [1.5, 7, 2.5, 8.5], "texture": "#fungus"},
+				"east": {"uv": [1.5, 7, 2.5, 8.5], "texture": "#fungus"},
+				"south": {"uv": [2.5, 7, 1.5, 8.5], "texture": "#fungus"},
+				"west": {"uv": [1.5, 7, 2.5, 8.5], "texture": "#fungus"},
+				"down": {"uv": [7.5, 1.5, 6.5, 2.5], "texture": "#fungus"}
+			}
+		},
+		{
+			"from": [6.5, 2, 6.5],
+			"to": [9.5, 3, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
+			"faces": {
+				"north": {"uv": [7, 3.5, 8.5, 4], "texture": "#fungus"},
+				"east": {"uv": [7, 3.5, 8.5, 4], "texture": "#fungus"},
+				"south": {"uv": [7, 3.5, 8.5, 4], "texture": "#fungus"},
+				"west": {"uv": [7, 3.5, 8.5, 4], "texture": "#fungus"},
+				"down": {"uv": [7, 6.5, 5.5, 8], "texture": "#fungus"}
+			}
+		},
+		{
+			"from": [5, 3, 5],
+			"to": [11, 4, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -0.5, 0]},
+			"faces": {
+				"north": {"uv": [4, 3.5, 7, 4], "texture": "#fungus"},
+				"east": {"uv": [4, 3.5, 7, 4], "texture": "#fungus"},
+				"south": {"uv": [4, 3.5, 7, 4], "texture": "#fungus"},
+				"west": {"uv": [4, 3.5, 7, 4], "texture": "#fungus"},
+				"down": {"uv": [3, 4, 0, 7], "texture": "#fungus"}
+			}
+		},
+		{
+			"from": [4, 4, 4],
+			"to": [12, 6, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -0.25, 0]},
+			"faces": {
+				"north": {"uv": [4, 2.5, 8, 3.5], "texture": "#fungus"},
+				"east": {"uv": [3, 4, 7, 5], "texture": "#fungus"},
+				"south": {"uv": [4, 2.5, 8, 3.5], "texture": "#fungus"},
+				"west": {"uv": [3, 4, 7, 5], "texture": "#fungus"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#fungus"},
+				"down": {"uv": [4, 0, 0, 4], "texture": "#fungus"}
+			}
+		},
+		{
+			"from": [5.5, 5, 5.5],
+			"to": [10.5, 8, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1.25, 0]},
+			"faces": {
+				"north": {"uv": [3, 5, 5.5, 6.5], "texture": "#fungus"},
+				"east": {"uv": [5.5, 5, 8, 6.5], "texture": "#fungus"},
+				"south": {"uv": [6.5, 0, 9, 1.5], "texture": "#fungus"},
+				"west": {"uv": [3, 6.5, 5.5, 8], "texture": "#fungus"},
+				"up": {"uv": [6.5, 2.5, 4, 0], "texture": "#fungus"}
+			}
+		},
+		{
+			"from": [6.5, 8, 6.5],
+			"to": [9.5, 9, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0.5, 0]},
+			"faces": {
+				"north": {"uv": [7, 4, 8.5, 4.5], "texture": "#fungus"},
+				"east": {"uv": [7, 4.5, 8.5, 5], "texture": "#fungus"},
+				"south": {"uv": [7, 6.5, 8.5, 7], "texture": "#fungus"},
+				"west": {"uv": [7, 7, 8.5, 7.5], "texture": "#fungus"},
+				"up": {"uv": [1.5, 8.5, 0, 7], "texture": "#fungus"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4.5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-18, 0, 0],
+			"translation": [0.5, 5, 0.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-18, 0, 0],
+			"translation": [0.5, 5, 0.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"translation": [0, 3, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"translation": [0, 13.5, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -10.25],
+			"scale": [1.42, 1.42, 1.42]
+		}
+	}
+}

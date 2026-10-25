@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/foliage/template_bush",
+  "textures": {
+    "bush": "minecraft:block/foliage/bush2",
+	"berries": "minecraft:block/foliage/bush2_berries2"
+  }
+}

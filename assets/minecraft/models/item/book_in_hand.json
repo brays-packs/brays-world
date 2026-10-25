@@ -1,0 +1,127 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "builtin/entity",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "item/book_in_hand"
+	},
+	"elements": [
+		{
+			"name": "cover_left_rotation",
+			"from": [7.9408, 3, 6.5643],
+			"to": [14.4408, 13, 6.5643],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.98845, 8, 8]},
+			"faces": {
+				"north": {"uv": [5.5, 0, 7, 5], "texture": "#0"},
+				"south": {"uv": [4, 0, 5.5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cover_right_rotation",
+			"from": [1.5611, 3, 6.5643],
+			"to": [8.0611, 13, 6.5643],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.98845, 8, 8]},
+			"faces": {
+				"north": {"uv": [1.5, 0, 3, 5], "texture": "#0"},
+				"south": {"uv": [0, 0, 1.5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "spine_rotation",
+			"from": [7.5, 3, 6.65],
+			"to": [8.5, 13, 6.65],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [3, 0, 3.25, 5], "texture": "#0"},
+				"south": {"uv": [3.25, 0, 3.5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "page_left_rotation",
+			"from": [7.82276, 4, 6.61566],
+			"to": [12.74776, 12, 7.61566],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [3.25, 5.5, 3.5, 9.5], "texture": "#0"},
+				"south": {"uv": [4.75, 5.5, 5.75, 9.5], "texture": "#0"},
+				"west": {"uv": [4.5, 5.5, 4.75, 9.5], "texture": "#0"},
+				"up": {"uv": [4.5, 5.5, 3.5, 5], "texture": "#0"},
+				"down": {"uv": [5.5, 5, 4.5, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "page_right_rotation",
+			"from": [3.25224, 4, 6.61566],
+			"to": [8.17724, 12, 7.61566],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0.25, 5.5, 0.5, 9.5], "texture": "#0"},
+				"south": {"uv": [1.75, 5.5, 2.75, 9.5], "texture": "#0"},
+				"west": {"uv": [1.5, 5.5, 1.75, 9.5], "texture": "#0"},
+				"up": {"uv": [1.5, 5.5, 0.5, 5], "texture": "#0"},
+				"down": {"uv": [2.5, 5, 1.5, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "flip_left_rotation",
+			"from": [7.72142, 4, 7.70122],
+			"to": [12.72142, 12, 7.70122],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [6, 5, 7.25, 9], "texture": "#0"},
+				"south": {"uv": [7.25, 5, 8.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "flip_right_rotation",
+			"from": [3.27858, 4, 7.70122],
+			"to": [8.27858, 12, 7.70122],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [6, 5, 7.25, 9], "texture": "#0"},
+				"south": {"uv": [6, 5, 7.25, 9], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-5, 0, 0],
+			"translation": [0, 3.25, 0.75],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-5, 0, 0],
+			"translation": [0, 3.25, 0.75],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-89.2, -32, -19.94],
+			"translation": [1.5, 3, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-89.2, -32, -19.94],
+			"translation": [1.5, 3, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"translation": [0, 3, 0]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 14, 0]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 0, -0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8.1625, 8, 5.53317],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}
+	]
+}

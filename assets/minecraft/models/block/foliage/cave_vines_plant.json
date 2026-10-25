@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/foliage/cave_vines",
+  "textures": {
+    "plant": "minecraft:block/foliage/cave_vines_plant"
+  }
+}

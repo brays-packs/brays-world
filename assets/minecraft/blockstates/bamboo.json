@@ -1,0 +1,104 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/foliage/bamboo1_age0"
+        },
+        {
+          "model": "minecraft:block/foliage/bamboo2_age0"
+        },
+        {
+          "model": "minecraft:block/foliage/bamboo3_age0"
+        },
+        {
+          "model": "minecraft:block/foliage/bamboo4_age0"
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo5_age0"
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo6_age0"
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo7_age0"
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo8_age0"
+        }
+      ],
+      "when": {
+        "age": "0"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/foliage/bamboo1_age1", "weight": 2
+        },
+        {
+          "model": "minecraft:block/foliage/bamboo2_age1", "weight": 2
+        },
+        {
+          "model": "minecraft:block/foliage/bamboo3_age1", "weight": 2
+        },
+        {
+          "model": "minecraft:block/foliage/bamboo4_age1", "weight": 2
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo5_age1", "weight": 2
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo6_age1", "weight": 2
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo7_age1", "weight": 2
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo8_age1", "weight": 2
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo9_age1"
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo9_age1", "y":90
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo9_age1", "y":180
+        },
+		{
+          "model": "minecraft:block/foliage/bamboo9_age1", "y":270
+        }
+      ],
+      "when": {
+        "age": "1"
+      }
+    },
+    {
+      "apply": [
+		{
+		  "model": "minecraft:block/foliage/bamboo_small_leaves1"
+		},
+		{
+		  "model": "minecraft:block/foliage/bamboo_small_leaves2"
+		}
+      ],
+      "when": {
+        "leaves": "small"
+      }
+    },
+    {
+      "apply": [
+		{
+		  "model": "minecraft:block/foliage/bamboo_large_leaves1"
+		},
+		{
+		  "model": "minecraft:block/foliage/bamboo_large_leaves2"
+		}
+      ],
+      "when": {
+        "leaves": "large"
+      }
+    }
+  ]
+}

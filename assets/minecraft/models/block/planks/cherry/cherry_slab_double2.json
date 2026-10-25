@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_slab_double_planks",
+  "textures": {
+    "particle": "minecraft:block/planks/cherry/cherry_planks2",
+	"planks": "minecraft:block/planks/cherry/cherry_planks2"
+  }
+}

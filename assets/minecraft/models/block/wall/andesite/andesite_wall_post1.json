@@ -1,0 +1,7 @@
+{
+ "parent": "minecraft:block/wall/template_wall_post1",
+  "textures": {
+	"particle": "minecraft:block/stone/andesite1",
+    "wall": "minecraft:block/stone/andesite1"
+  }
+}

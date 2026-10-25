@@ -1,0 +1,33 @@
+{
+	"credit": "Bray was here :)",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/lily_pad/lily_pad_stem",
+		"particle": "block/lily_pad/lily_pad_darkgreen",
+		"texture": "block/lily_pad/lily_pad_darkgreen"
+	},
+	"elements": [
+		{
+			"from": [0.25, -0.75, 0.25],
+			"to": [15.75, -0.75, 15.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 0.25, 8.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [8, -16, 5],
+			"to": [8, -0.75, 12.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -8.75, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 14], "texture": "#1"},
+				"east": {"uv": [0, 0, 8, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 14], "texture": "#1"},
+				"west": {"uv": [8, 0, 0, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 8], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 8], "texture": "#1"}
+			}
+		}
+	]
+}

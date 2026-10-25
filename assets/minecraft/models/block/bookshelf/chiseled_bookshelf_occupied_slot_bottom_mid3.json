@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/bookshelf/template_chiseled_bookshelf_slot_bottom_mid",
+	"textures": {
+		"texture": "block/bookshelf/chiseled_bookshelf_occupied3"
+	},
+	"elements": [
+		{
+			"from": [6, 1, 1],
+			"to": [10, 6, 4],
+			"faces": {
+				"north": {"uv": [6, 9, 10, 15], "texture": "#texture"},
+				"east": {"uv": [6, 9, 8, 15], "texture": "#texture"},
+				"west": {"uv": [9, 9, 10, 15], "texture": "#texture"},
+				"up": {"uv": [10, 9, 6, 11], "texture": "#texture"},
+				"down": {"uv": [10, 13, 6, 15], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [7, 0.875, 0.85],
+			"to": [8, 6.125, 4],
+			"faces": {
+				"north": {"uv": [8, 9, 9, 15], "texture": "#texture"},
+				"east": {"uv": [8, 9, 9, 15], "texture": "#texture"},
+				"west": {"uv": [8, 9, 9, 15], "texture": "#texture"},
+				"up": {"uv": [9, 9, 8, 10], "texture": "#texture"},
+				"down": {"uv": [9, 13.875, 8, 14.875], "texture": "#texture"}
+			}
+		}
+	]
+}

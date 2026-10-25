@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "": [
+		{"model": "minecraft:block/flowers/wither_rose1", "weight": 12},
+		{"model": "minecraft:block/flowers/wither_rose2", "weight": 8},
+		{"model": "minecraft:block/flowers/wither_rose_double1", "weight": 1},
+		{"model": "minecraft:block/flowers/wither_rose_double2", "weight": 1},
+		{"model": "minecraft:block/flowers/wither_rose_double3", "weight": 1},
+		{"model": "minecraft:block/flowers/wither_rose_double4", "weight": 1},
+		{"model": "minecraft:block/flowers/wither_rose_double1", "weight": 1, "y": 90},
+		{"model": "minecraft:block/flowers/wither_rose_double2", "weight": 1, "y": 90},
+		{"model": "minecraft:block/flowers/wither_rose_double3", "weight": 1, "y": 90},
+		{"model": "minecraft:block/flowers/wither_rose_double4", "weight": 1, "y": 90},
+		{"model": "minecraft:block/flowers/wither_rose_double1", "weight": 1, "y": 180},
+		{"model": "minecraft:block/flowers/wither_rose_double2", "weight": 1, "y": 180},
+		{"model": "minecraft:block/flowers/wither_rose_double3", "weight": 1, "y": 180},
+		{"model": "minecraft:block/flowers/wither_rose_double4", "weight": 1, "y": 180},
+		{"model": "minecraft:block/flowers/wither_rose_double1", "weight": 1, "y": 270},
+		{"model": "minecraft:block/flowers/wither_rose_double2", "weight": 1, "y": 270},
+		{"model": "minecraft:block/flowers/wither_rose_double3", "weight": 1, "y": 270},
+		{"model": "minecraft:block/flowers/wither_rose_double4", "weight": 1, "y": 270}
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "block/templates/template_slab_bottom",
+	"textures": {
+		"side": "block/stone/polished_diorite2",
+		"particle": "block/stone/polished_diorite1",
+		"top": "block/stone/polished_diorite1"
+	}
+}

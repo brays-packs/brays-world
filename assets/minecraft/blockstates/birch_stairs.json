@@ -1,0 +1,233 @@
+{
+  "variants": {
+    "facing=east,half=bottom,shape=inner_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner4_bottom",
+      "uvlock": false,
+      "y": 270
+    },
+    "facing=east,half=bottom,shape=inner_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner1_bottom"
+    },
+    "facing=east,half=bottom,shape=outer_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer3_bottom",
+      "uvlock": false,
+      "y": 270
+    },
+    "facing=east,half=bottom,shape=outer_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer2_bottom",
+	  "uvlock": false
+    },
+    "facing=east,half=bottom,shape=straight": {
+      "model": "minecraft:block/planks/birch/birch_stairs_bottom_ew",
+	  "uvlock": true
+    },
+	
+	
+    "facing=east,half=top,shape=inner_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner3_top",
+      "uvlock": false,
+      "x": 180
+    },
+    "facing=east,half=top,shape=inner_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner1_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=top,shape=outer_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer4_top",
+      "uvlock": false,
+      "x": 180
+    },
+    "facing=east,half=top,shape=outer_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer2_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=top,shape=straight": {
+      "model": "minecraft:block/planks/birch/birch_stairs_top_ew",
+      "uvlock": true,
+      "x": 180
+    },
+	
+	
+	
+    "facing=north,half=bottom,shape=inner_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner2_bottom",
+      "uvlock": false,
+      "y": 180
+    },
+    "facing=north,half=bottom,shape=inner_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner4_bottom",
+      "uvlock": false,
+      "y": 270
+    },
+    "facing=north,half=bottom,shape=outer_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer1_bottom",
+      "uvlock": false,
+      "y": 180
+    },
+    "facing=north,half=bottom,shape=outer_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer3_bottom",
+      "uvlock": false,
+      "y": 270
+    },
+    "facing=north,half=bottom,shape=straight": {
+      "model": "minecraft:block/planks/birch/birch_stairs_bottom_ns",
+      "uvlock": true,
+      "y": 270
+    },
+	
+	
+	
+    "facing=north,half=top,shape=inner_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner2_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=top,shape=inner_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner3_top",
+      "uvlock": false,
+      "x": 180
+    },
+    "facing=north,half=top,shape=outer_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer1_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=top,shape=outer_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer4_top",
+      "uvlock": false,
+      "x": 180
+    },
+    "facing=north,half=top,shape=straight": {
+      "model": "minecraft:block/planks/birch/birch_stairs_top_ns",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+	
+	
+	
+	
+    "facing=south,half=bottom,shape=inner_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner1_bottom"
+    },
+    "facing=south,half=bottom,shape=inner_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner3_bottom",
+      "uvlock": false,
+      "y": 90
+    },
+    "facing=south,half=bottom,shape=outer_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer2_bottom"
+    },
+    "facing=south,half=bottom,shape=outer_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer4_bottom",
+      "uvlock": false,
+      "y": 90
+    },
+    "facing=south,half=bottom,shape=straight": {
+      "model": "minecraft:block/planks/birch/birch_stairs_bottom_ns",
+      "uvlock": true,
+      "y": 90
+    },
+	
+	
+	
+    "facing=south,half=top,shape=inner_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner1_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 90
+    },
+    "facing=south,half=top,shape=inner_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner4_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=top,shape=outer_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer2_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 90
+    },
+    "facing=south,half=top,shape=outer_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer3_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=top,shape=straight": {
+      "model": "minecraft:block/planks/birch/birch_stairs_top_ns",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+	
+	
+	
+	
+    "facing=west,half=bottom,shape=inner_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner3_bottom",
+      "uvlock": false,
+      "y": 90
+    },
+    "facing=west,half=bottom,shape=inner_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner2_bottom",
+      "uvlock": false,
+      "y": 180
+    },
+    "facing=west,half=bottom,shape=outer_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer4_bottom",
+      "uvlock": false,
+      "y": 90
+    },
+    "facing=west,half=bottom,shape=outer_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer1_bottom",
+      "uvlock": false,
+      "y": 180
+    },
+    "facing=west,half=bottom,shape=straight": {
+      "model": "minecraft:block/planks/birch/birch_stairs_bottom_ew",
+      "uvlock": true,
+      "y": 180
+    },
+	
+	
+	
+    "facing=west,half=top,shape=inner_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner4_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 180
+    },
+    "facing=west,half=top,shape=inner_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_inner2_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 270
+    },
+    "facing=west,half=top,shape=outer_left": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer3_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 180
+    },
+    "facing=west,half=top,shape=outer_right": {
+      "model": "minecraft:block/planks/birch/birch_stairs_outer1_top",
+      "uvlock": false,
+      "x": 180,
+      "y": 270
+    },
+    "facing=west,half=top,shape=straight": {
+      "model": "minecraft:block/planks/birch/birch_stairs_top_ew",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    }
+  }
+}

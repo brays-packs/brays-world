@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/door/bamboo/bamboo_trapdoor_inventory"
+  }
+}

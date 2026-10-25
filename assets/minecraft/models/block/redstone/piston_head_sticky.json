@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/redstone/template_piston_head",
+  "textures": {
+    "platform": "minecraft:block/redstone/piston_top_sticky",
+	"particle": "minecraft:block/redstone/piston_top_sticky",
+	"back": "minecraft:block/redstone/piston_top_back",
+    "side": "minecraft:block/redstone/piston_side_sticky",
+    "shaft": "minecraft:block/redstone/piston_shaft"
+  }
+}

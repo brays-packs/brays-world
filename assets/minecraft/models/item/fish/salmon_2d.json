@@ -1,0 +1,8 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"particle": "item/fish/salmon",
+		"layer0": "item/fish/salmon"
+	}
+}

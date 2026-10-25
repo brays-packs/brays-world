@@ -1,0 +1,23 @@
+{
+	"credit": "Bray was here :)",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/foliage/leaf_litter1",
+		"texture": "block/foliage/leaf_litter1"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [8, 1, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0.75, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 1], "rotation": 180, "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [7, 0, 8, 8], "rotation": 90, "texture": "#texture"},
+				"south": {"uv": [0, 7, 8, 8], "texture": "#texture"},
+				"west": {"uv": [0, 0, 1, 8], "rotation": 270, "texture": "#texture", "cullface": "west"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#texture"},
+				"down": {"uv": [0, 8, 8, 0], "texture": "#texture"}
+			}
+		}
+	]
+}

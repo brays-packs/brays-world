@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crops/crop_tall",
+  "textures": {
+    "crop": "minecraft:block/crops/beetroots_stage3_yellow1"
+  }
+}

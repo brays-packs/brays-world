@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/copper/lightning_rod",
+  "textures": {
+    "particle": "minecraft:block/copper/oxidized_lightning_rod",
+	"texture": "minecraft:block/copper/oxidized_lightning_rod"
+  }
+}

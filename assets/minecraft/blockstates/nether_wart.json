@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "minecraft:block/crops/nether_wart/nether_wart_stage0"
+    },
+    "age=1": {
+      "model": "minecraft:block/crops/nether_wart/nether_wart_stage1"
+    },
+    "age=2": {
+      "model": "minecraft:block/crops/nether_wart/nether_wart_stage1"
+    },
+    "age=3": [
+	{"model": "minecraft:block/crops/nether_wart/nether_wart_stage2", "weight": 5}, 
+	{"model": "minecraft:block/crops/nether_wart/nether_wart_stage2_tall", "weight": 1}
+    ]
+  }
+}

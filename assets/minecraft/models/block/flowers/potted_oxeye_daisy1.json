@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/foliage/flower_pot_cross",
+  "textures": {
+    "plant": "minecraft:block/flowers/oxeye_daisy_bundle",
+	"particle": "minecraft:block/flowers/oxeye_daisy_bundle"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "jeb_",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/name_tag/name_tag_jeb"
+        }
+      },
+      {
+        "when": [
+          "giraffe",
+          "faraday"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/name_tag/name_tag_giraffe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/name_tag"
+    }
+  }
+}

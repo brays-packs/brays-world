@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_fence_gate_open",
+  "textures": {
+    "planks": "minecraft:block/planks/cherry/cherry_fence",
+	"particle": "minecraft:block/planks/cherry/cherry_fence"
+  }
+}

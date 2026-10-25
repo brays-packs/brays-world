@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/templates/template_fence_inventory",
+	"textures": {
+		"particle": "block/stone/nether_bricks",
+		"fence": "block/stone/nether_bricks"
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_crop",
+  "textures": {
+    "crop": "minecraft:block/crops/nether_wart/nether_wart_stage2",
+	"particle": "minecraft:block/crops/nether_wart/nether_wart_stage2"
+  }
+}

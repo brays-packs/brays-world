@@ -1,0 +1,51 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "entries": [
+        {
+          "threshold": 0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/food/carrot_eat0"
+          }
+        },
+        {
+          "threshold": 6.4,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/food/carrot_eat1"
+          }
+        },
+        {
+          "threshold": 12.8,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/food/carrot_eat2"
+          }
+        },
+		{
+          "threshold": 19.2,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/food/carrot_eat3"
+          }
+        },
+		{
+          "threshold": 25.6,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/food/carrot_eat4"
+          }
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/food/carrot"
+    }
+  }
+}

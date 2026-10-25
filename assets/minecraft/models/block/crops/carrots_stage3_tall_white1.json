@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crops/crop_tall",
+  "textures": {
+    "crop": "minecraft:block/crops/carrots_stage3_white1"
+  }
+}

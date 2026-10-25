@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/log/template_log",
+  "textures": {
+    "end": "minecraft:block/log/spruce_log_top",
+    "side": "minecraft:block/log/spruce_log",
+	"particle": "minecraft:block/log/spruce_log"
+  }
+}

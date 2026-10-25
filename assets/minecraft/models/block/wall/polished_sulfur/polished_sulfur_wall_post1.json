@@ -1,0 +1,7 @@
+{
+ "parent": "minecraft:block/templates/template_wall_post1",
+  "textures": {
+	"particle": "minecraft:block/sulfur/polished_sulfur",
+    "wall": "minecraft:block/sulfur/polished_sulfur"
+  }
+}

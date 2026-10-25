@@ -1,0 +1,8 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/templates/cube_all",
+	"textures": {
+		"particle": "block/ores/emerald_ore4",
+		"all": "block/ores/emerald_ore4"
+	}
+}

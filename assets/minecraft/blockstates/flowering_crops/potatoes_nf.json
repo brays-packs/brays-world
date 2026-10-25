@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "age=0": [
+		{"model": "minecraft:block/crops/potatoes_stage0"},
+		{"model": "minecraft:block/crops/potatoes_stage0_tall"}
+    ],
+    "age=1": [
+		{"model": "minecraft:block/crops/potatoes_stage0"},
+		{"model": "minecraft:block/crops/potatoes_stage0_tall"}
+    ],
+    "age=2": [
+		{"model": "minecraft:block/crops/potatoes_stage1"},
+		{"model": "minecraft:block/crops/potatoes_stage1_tall"}
+    ],
+    "age=3": [
+		{"model": "minecraft:block/crops/potatoes_stage1"},
+		{"model": "minecraft:block/crops/potatoes_stage1_tall"}
+    ],
+    "age=4": [
+		{"model": "minecraft:block/crops/potatoes_stage2"},
+		{"model": "minecraft:block/crops/potatoes_stage2_tall"}
+    ],
+    "age=5": [
+		{"model": "minecraft:block/crops/potatoes_stage2"},
+		{"model": "minecraft:block/crops/potatoes_stage2_tall"}
+    ],
+    "age=6": [
+		{"model": "minecraft:block/crops/potatoes_stage2"},
+		{"model": "minecraft:block/crops/potatoes_stage2_tall"}
+    ],
+    "age=7": [
+		{"model": "minecraft:block/crops/potatoes_stage3"},
+		{"model": "minecraft:block/crops/potatoes_stage3_tall"},
+    ]
+  }
+}

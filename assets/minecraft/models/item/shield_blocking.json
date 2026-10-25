@@ -1,0 +1,32 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "builtin/entity",
+	"textures": {
+		"particle": "block/dark_oak_planks"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 155, 0],
+			"translation": [-3.49, 11, -2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, 155, 0],
+			"translation": [11.51, 7, 2.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, -5],
+			"translation": [-12, 0.75, -11],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 180, -5],
+			"translation": [8, 2.5, -11],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"gui": {
+			"translation": [4.5, 4.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

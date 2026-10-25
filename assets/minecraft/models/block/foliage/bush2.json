@@ -1,0 +1,8 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/tinted_cross",
+	"ambientocclusion": false,
+	"textures": {
+		"cross": "block/foliage/bush2"
+	}
+}

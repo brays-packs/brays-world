@@ -1,0 +1,4 @@
+{
+    condition: "braysWorld.featureToggles.braysFloweringCrops",
+	fallbacks: "assets/minecraft/blockstates/flowering_crops/potatoes_nf.json"
+}

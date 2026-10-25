@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/templates/template_outer_stairs_planks_bottom",
+  "textures": {
+	"particle": "block/planks/bamboo/bamboo_planks1",
+	"planks": "block/planks/bamboo/bamboo_planks1",
+	"flat": "block/planks/bamboo/bamboo_planks1_270",
+	"planks_diag": "block/planks/bamboo/bamboo_planks_diag4"
+  }
+}

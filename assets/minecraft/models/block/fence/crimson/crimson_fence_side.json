@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_fence_side",
+  "textures": {
+    "planks": "minecraft:block/planks/crimson/crimson_fence",
+	"particle": "minecraft:block/planks/crimson/crimson_fence"
+  }
+}

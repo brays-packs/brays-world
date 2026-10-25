@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+	"property": "minecraft:selected",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/weathered_copper_bulb"
+    },
+    "on_true": {
+      "type": "minecraft:select",
+	  "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/weathered_copper_bulb_lit"
+        },
+        "when": [
+          "gui",
+          "fixed"
+        ]
+      }
+    ],
+	 "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/weathered_copper_bulb"
+      },
+	  "property": "minecraft:display_context"
+   }
+  }
+ }

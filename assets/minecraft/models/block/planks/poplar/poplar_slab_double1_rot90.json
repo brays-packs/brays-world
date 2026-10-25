@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_slab_double_planks_rot90",
+  "textures": {
+    "particle": "minecraft:block/planks/poplar/poplar_planks1",
+	"planks": "minecraft:block/planks/poplar/poplar_planks1"
+  }
+}

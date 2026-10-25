@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/planks/poplar/poplar_planks1", "weight": 5},
+	{"model": "minecraft:block/planks/poplar/poplar_planks2", "weight": 5}
+	]
+    }
+  }

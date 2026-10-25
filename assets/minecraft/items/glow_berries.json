@@ -1,0 +1,131 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "cherry",
+          "cherries",
+          "Cherry",
+          "Cherries",
+          "CHERRY",
+          "CHERRIES"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/food/alt/cherries_eat0"
+                }
+              },
+              {
+                "threshold": 5.33,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/food/alt/cherries_eat1"
+                }
+              },
+              {
+                "threshold": 10.66,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/food/alt/cherries_eat2"
+                }
+              },
+              {
+                "threshold": 15.99,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/food/alt/cherries_eat3"
+                }
+              },
+              {
+                "threshold": 21.32,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/food/alt/cherries_eat4"
+                }
+              },
+              {
+                "threshold": 26.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/food/alt/cherries_eat5"
+                }
+              }
+            ]
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/food/alt/cherries"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:use_duration",
+        "entries": [
+          {
+            "threshold": 0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/food/glow_berries_eat0"
+            }
+          },
+          {
+            "threshold": 5.33,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/food/glow_berries_eat1"
+            }
+          },
+          {
+            "threshold": 10.66,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/food/glow_berries_eat2"
+            }
+          },
+          {
+            "threshold": 15.99,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/food/glow_berries_eat3"
+            }
+          },
+          {
+            "threshold": 21.32,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/food/glow_berries_eat4"
+            }
+          },
+          {
+            "threshold": 26.65,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/food/glow_berries_eat5"
+            }
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/food/glow_berries"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+{
+    condition: "braysWorld.freshAnimations.useFreshAnimations & braysWorld.freshAnimations.chickens"
+}

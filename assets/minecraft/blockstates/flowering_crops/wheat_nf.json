@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": [
+		{"model": "minecraft:block/crops/wheat_stage0", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage0_tall", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage0_bushy", "weight": 1},
+		{"model": "minecraft:block/crops/wheat_stage0_bushy", "y": 90, "weight": 1}
+    ],
+    "age=1": [
+		{"model": "minecraft:block/crops/wheat_stage1", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage1_tall", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage1_bushy", "weight": 1},
+		{"model": "minecraft:block/crops/wheat_stage1_bushy", "y": 90, "weight": 1}
+    ],
+    "age=2": [
+		{"model": "minecraft:block/crops/wheat_stage2", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage2_tall", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage2_bushy", "weight": 1},
+		{"model": "minecraft:block/crops/wheat_stage2_bushy", "y": 90, "weight": 1}
+    ],
+    "age=3": [
+		{"model": "minecraft:block/crops/wheat_stage3", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage3_tall", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage3_bushy", "weight": 1},
+		{"model": "minecraft:block/crops/wheat_stage3_bushy", "y": 90, "weight": 1}
+    ],
+    "age=4": [
+		{"model": "minecraft:block/crops/wheat_stage4", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage4_tall", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage4_bushy", "weight": 1},
+		{"model": "minecraft:block/crops/wheat_stage4_bushy", "y": 90, "weight": 1}
+    ],
+    "age=5": [
+		{"model": "minecraft:block/crops/wheat_stage5", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage5_tall", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage5_bushy", "weight": 1},
+		{"model": "minecraft:block/crops/wheat_stage5_bushy", "y": 90, "weight": 1}
+    ],
+    "age=6": [
+		{"model": "minecraft:block/crops/wheat_stage6", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage6_tall", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage6_bushy", "weight": 1},
+		{"model": "minecraft:block/crops/wheat_stage6_bushy", "y": 90, "weight": 1}
+    ],
+    "age=7": [
+		{"model": "minecraft:block/crops/wheat_stage7", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage7_tall", "weight": 2},
+		{"model": "minecraft:block/crops/wheat_stage7_bushy", "weight": 1},
+		{"model": "minecraft:block/crops/wheat_stage7_bushy", "y": 90, "weight": 1},
+    ]
+  }
+}

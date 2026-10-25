@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/wall/template_wall_post3",
+  "textures": {
+    "particle": "minecraft:block/stone/prismarine",
+    "wall": "minecraft:block/stone/prismarine"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/foliage/tinted_flower_pot_cross",
+  "textures": {
+    "particle": "minecraft:block/flowers/golden_dandelion1",
+	"plant": "minecraft:block/flowers/golden_dandelion1"
+  }
+}

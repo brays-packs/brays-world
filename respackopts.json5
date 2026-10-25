@@ -1,0 +1,47 @@
+{
+    id: "braysWorld",
+    version: 13,
+    capabilities: ["FileFilter"],
+    conf: {
+		"featureToggles": {
+			"connectedTextures": {
+			glass: true,
+			dirt: true,
+			rootedDirt: true,
+			grass: true,
+			moss: true,
+			paleMoss: true,
+			gravel: true,
+			sand: true,
+			podzol: true,
+			mangroveRoots: true,
+			leaves: true,
+			mossyStoneBricks: true,
+			cobblestone: true,
+			mossyCobblestone: true,
+			chiseledTuffBricks: true,
+			bricks: true,
+			copperBlocks: true,
+			chiseledCopper: true,
+			wool: true
+			
+		},
+			braysFireflyBush: true,
+			braysLeafLitter: true,
+			braysFloweringCrops: true
+		},
+		"gui": {
+			hotbarSelectionColor: [
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			purple,
+			rainbow,
+			black
+			],
+			customFont: true,
+		}
+    }
+}

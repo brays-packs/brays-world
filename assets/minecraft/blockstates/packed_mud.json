@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+		{"model": "minecraft:block/stone/packed_mud"},
+		{"model": "minecraft:block/stone/packed_mud", "y": 180},
+		{"model": "minecraft:block/stone/packed_mud2"},
+		{"model": "minecraft:block/stone/packed_mud2", "y": 180}
+		]
+  }
+}

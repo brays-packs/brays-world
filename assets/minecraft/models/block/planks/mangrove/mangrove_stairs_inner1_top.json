@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/templates/template_inner_stairs_planks_top",
+  "textures": {
+	"particle": "block/planks/mangrove/mangrove_planks1",
+	"planks": "block/planks/mangrove/mangrove_planks1",
+	"flat": "block/planks/mangrove/mangrove_planks1_90",
+	"planks_diag": "block/planks/mangrove/mangrove_planks_diag1"
+  }
+}

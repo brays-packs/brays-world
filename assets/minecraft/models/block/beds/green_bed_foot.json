@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/templates/template_bed_foot",
+  "textures": {
+    "east": "minecraft:block/beds/green_bed_foot_east",
+    "up": "minecraft:block/green_bed_foot_up",
+    "west": "minecraft:block/beds/green_bed_foot_west"
+  }
+}

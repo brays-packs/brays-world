@@ -1,0 +1,60 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "ground",
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:count",
+          "normalize": false,
+          "entries": [
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/count/book_1"
+              }
+            },
+            {
+              "threshold": 16,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/count/book_2"
+              }
+            },
+            {
+              "threshold": 32,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/count/book_3"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/count/book_1"
+          }
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "head"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/book_in_hand"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/dirt/coarse_dirt",
+		"bottom": "block/dirt/coarse_dirt",
+		"top_overlay": "block/dirt/dirt_stones2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "up", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [8, 16.15, 2],
+			"to": [11, 16.15, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, 0, -0.5]},
+			"faces": {
+				"up": {"uv": [8, 2, 11, 5], "texture": "#top_overlay", "cullface": "up"},
+				"down": {"uv": [11, 2, 8, 5], "rotation": 180, "texture": "#top_overlay", "cullface": "up"}
+			}
+		},
+		{
+			"from": [2, 16.15, 11],
+			"to": [5, 16.15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, 0, 0.5]},
+			"faces": {
+				"up": {"uv": [3, 11, 6, 14], "texture": "#top_overlay", "cullface": "up"},
+				"down": {"uv": [6, 11, 3, 14], "rotation": 180, "texture": "#top_overlay", "cullface": "up"}
+			}
+		},
+		{
+			"from": [11, 16.15, 12],
+			"to": [13, 16.15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 0, 0.5]},
+			"faces": {
+				"up": {"uv": [11, 11, 13, 13], "texture": "#top_overlay", "cullface": "up"},
+				"down": {"uv": [13, 11, 11, 13], "rotation": 180, "texture": "#top_overlay", "cullface": "up"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [1, 2, 3]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Bray was here :)",
+	"texture_size": [20, 20],
+	"textures": {
+		"particle": "block/planks/oak_fence",
+		"planks": "block/planks/oak_fence"
+	},
+	"elements": [
+		{
+			"name": "top bar",
+			"from": [7, 8, 0],
+			"to": [9, 11, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.5, 4.5]},
+			"faces": {
+				"north": {"uv": [0, 7.2, 1.6, 9.6], "texture": "#planks"},
+				"east": {"uv": [5.6, 13.6, 12.8, 16], "texture": "#planks"},
+				"south": {"uv": [11.2, 7.2, 12.8, 9.6], "texture": "#planks", "cullface": "south"},
+				"west": {"uv": [0, 10.4, 6.4, 12.8], "texture": "#planks"},
+				"up": {"uv": [5.6, 13.6, 12.8, 15.2], "rotation": 90, "texture": "#planks"},
+				"down": {"uv": [0, 13.6, 7.2, 15.2], "rotation": 90, "texture": "#planks"}
+			}
+		},
+		{
+			"name": "top bar",
+			"from": [7, 2, 0],
+			"to": [9, 5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.5, 4.5]},
+			"faces": {
+				"north": {"uv": [0, 5.6, 1.6, 8], "texture": "#planks"},
+				"east": {"uv": [5.6, 5.6, 12.8, 8], "texture": "#planks"},
+				"south": {"uv": [11.2, 5.6, 12.8, 8], "texture": "#planks", "cullface": "south"},
+				"west": {"uv": [0, 5.6, 6.4, 8], "texture": "#planks"},
+				"up": {"uv": [5.6, 7.2, 12.8, 8.8], "rotation": 90, "texture": "#planks"},
+				"down": {"uv": [0, 7.2, 7.2, 8.8], "rotation": 90, "texture": "#planks"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

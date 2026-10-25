@@ -1,0 +1,98 @@
+{
+	"format_version": "26.3",
+	"credit": "Bray was here :)",
+	"ambientocclusion": false,
+	"textures": {
+		"flower1": "block/flowers/open_eyeblossom1",
+		"flower2": "block/flowers/open_eyeblossom2",
+		"particle": "block/flowers/open_eyeblossom1_emissive",
+		"emissive1": "block/flowers/open_eyeblossom1_emissive",
+		"emissive2": "block/flowers/open_eyeblossom2_emissive"
+	},
+	"elements": [
+		{
+			"from": [2.8, 0, 11],
+			"to": [17.2, 16, 11],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [10, 8, 11], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#flower1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#flower1"}
+			}
+		},
+		{
+			"from": [10, 0, 3.8],
+			"to": [10, 16, 18.2],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [10, 8, 11], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#flower1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#flower1"}
+			}
+		},
+		{
+			"from": [2.8, 0, 11],
+			"to": [17.2, 16, 11],
+			"light_emission": 15,
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [10, 8, 11], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#emissive1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#emissive1"}
+			}
+		},
+		{
+			"from": [10, 0, 3.8],
+			"to": [10, 16, 18.2],
+			"light_emission": 15,
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [10, 8, 11], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#emissive1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#emissive1"}
+			}
+		},
+		{
+			"from": [0.8, 0, 5],
+			"to": [11.2, 14, 5],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [6, 8, 5], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#flower2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#flower2"}
+			}
+		},
+		{
+			"from": [6, 0, -0.2],
+			"to": [6, 14, 10.2],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [6, 8, 5], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#flower2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#flower2"}
+			}
+		},
+		{
+			"from": [0.8, 0, 5],
+			"to": [11.2, 14, 5],
+			"light_emission": 15,
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [6, 8, 5], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#emissive2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#emissive2"}
+			}
+		},
+		{
+			"from": [6, 0, -0.2],
+			"to": [6, 14, 10.2],
+			"light_emission": 15,
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [6, 8, 5], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#emissive2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#emissive2"}
+			}
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"credit": "Bray was here :)",
+	"textures": {
+		"1": "block/foliage/bamboo_small_leaves",
+		"particle": "block/foliage/bamboo_stalk",
+		"all": "block/foliage/bamboo_stalk"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"north": {"uv": [6, 0, 8, 16], "texture": "#all"},
+				"east": {"uv": [6, 0, 8, 16], "texture": "#all"},
+				"south": {"uv": [6, 0, 8, 16], "texture": "#all"},
+				"west": {"uv": [6, 0, 8, 16], "texture": "#all"},
+				"up": {"uv": [13, 0, 15, 2], "texture": "#all", "cullface": "up"},
+				"down": {"uv": [13, 4, 15, 6], "texture": "#all"}
+			}
+		},
+		{
+			"from": [3.8, 0, 8],
+			"to": [12.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 0, 3.8],
+			"to": [8, 16, 12.2],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		}
+	]
+}

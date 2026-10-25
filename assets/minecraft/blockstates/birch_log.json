@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "axis=x": [
+	{"model": "minecraft:block/log/birch_log1", "weight": 3, "y": 0, "z": 90},
+	{"model": "minecraft:block/log/birch_log1", "weight": 3, "y": 90, "z": 90},
+	{"model": "minecraft:block/log/birch_log2", "weight": 2, "y": 0, "z": 90},
+	{"model": "minecraft:block/log/birch_log2", "weight": 2, "y": 90, "z": 90},
+	{"model": "minecraft:block/log/birch_log3", "weight": 1, "y": 0, "z": 90},
+	{"model": "minecraft:block/log/birch_log3", "weight": 1, "y": 90, "z": 90}
+	],
+    "axis=y": [
+	{"model": "minecraft:block/log/birch_log1", "weight": 3},
+	{"model": "minecraft:block/log/birch_log2", "weight": 2},
+	{"model": "minecraft:block/log/birch_log3", "weight": 1},
+	{"model": "minecraft:block/log/birch_log1", "weight": 3, "y": 90},
+	{"model": "minecraft:block/log/birch_log2", "weight": 2, "y": 90},
+	{"model": "minecraft:block/log/birch_log3", "weight": 1, "y": 90}
+	],
+    "axis=z": [
+	{"model": "minecraft:block/log/birch_log1", "weight": 3, "x": 90, "z": 0},
+	{"model": "minecraft:block/log/birch_log1", "weight": 3, "x": 90, "z": 90},
+	{"model": "minecraft:block/log/birch_log2", "weight": 2, "x": 90, "z": 0},
+	{"model": "minecraft:block/log/birch_log2", "weight": 2, "x": 90, "z": 90},
+	{"model": "minecraft:block/log/birch_log3", "weight": 1, "x": 90, "z": 0},
+	{"model": "minecraft:block/log/birch_log3", "weight": 1, "x": 90, "z": 90}
+	]
+  }
+}

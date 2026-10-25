@@ -1,0 +1,4 @@
+{
+    condition: "variatedMetals",
+    fallback: "assets/minecraft/blockstates/iron_block_novar.json"
+}

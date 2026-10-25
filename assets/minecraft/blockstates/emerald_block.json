@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/ores/emerald_block1"},
+	{"model": "minecraft:block/ores/emerald_block2"}
+	]
+  }
+}

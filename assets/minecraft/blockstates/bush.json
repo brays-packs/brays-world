@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+		{"model": "minecraft:block/foliage/bush1", "weight": 16},
+		{"model": "minecraft:block/foliage/bush2", "weight": 8}
+	]
+  }
+}

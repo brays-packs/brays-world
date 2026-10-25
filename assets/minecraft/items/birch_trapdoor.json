@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/door/birch/birch_trapdoor_inventory"
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/templates/cube_all",
+	"textures": {
+		"particle": "block/ores/deepslate_coal_ore2",
+		"all": "block/ores/deepslate_coal_ore2"
+	}
+}

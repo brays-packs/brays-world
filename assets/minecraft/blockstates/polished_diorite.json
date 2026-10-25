@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/stone/polished_diorite1", "weight": 1},
+	{"model": "minecraft:block/stone/polished_diorite4", "weight": 1}
+	]
+  }
+}

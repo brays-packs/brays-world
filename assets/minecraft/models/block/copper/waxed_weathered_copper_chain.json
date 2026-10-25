@@ -1,0 +1,8 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "block/iron_chain",
+	"textures": {
+		"particle": "block/copper/weathered_copper_chain",
+		"all": "block/copper/weathered_copper_chain"
+	}
+}

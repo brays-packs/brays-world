@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/flowers/red_tulip1", "weight": 1},
+	{"model": "minecraft:block/flowers/red_tulip2", "weight": 1},
+	{"model": "minecraft:block/flowers/red_tulip3", "weight": 1},
+	{"model": "minecraft:block/flowers/red_tulip_double1"},
+	{"model": "minecraft:block/flowers/red_tulip_double1", "y": 90},
+	{"model": "minecraft:block/flowers/red_tulip_double1", "y": 180},
+	{"model": "minecraft:block/flowers/red_tulip_double1", "y": 270},
+	{"model": "minecraft:block/flowers/red_tulip_double2"},
+	{"model": "minecraft:block/flowers/red_tulip_double2", "y": 90},
+	{"model": "minecraft:block/flowers/red_tulip_double2", "y": 180},
+	{"model": "minecraft:block/flowers/red_tulip_double2", "y": 270}
+    ]
+  }
+}

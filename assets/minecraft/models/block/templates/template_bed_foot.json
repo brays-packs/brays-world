@@ -1,0 +1,60 @@
+{
+	"format_version": "26.3",
+	"credit": "Bray was here :)",
+	"parent": "block/template_bed",
+	"textures": {
+		"particle": "block/planks/oak/oak_planks1",
+		"east": "block/beds/red_bed_foot_east",
+		"west": "block/beds/red_bed_foot_west",
+		"up": "block/beds/red_bed_foot_up",
+		"down": "block/beds/bed_down",
+		"footboard": "block/beds/bed_footboard",
+		"footboard_sides": "block/beds/bed_footboard_sides"
+	},
+	"elements": [
+		{
+			"from": [0, 3, 0],
+			"to": [16, 9, 13],
+			"faces": {
+				"east": {"uv": [3, 7, 16, 13], "texture": "#east", "cullface": "east"},
+				"west": {"uv": [0, 7, 13, 13], "texture": "#west", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 13], "texture": "#up"},
+				"down": {"uv": [0, 3, 16, 16], "texture": "#down"}
+			}
+		},
+		{
+			"from": [0, 3, 13],
+			"to": [16, 11, 16],
+			"faces": {
+				"north": {"uv": [0, 5, 16, 13], "texture": "#footboard"},
+				"east": {"uv": [0, 9, 8, 12], "rotation": 90, "texture": "#footboard_sides", "cullface": "east"},
+				"south": {"uv": [0, 5, 16, 13], "texture": "#footboard", "cullface": "south"},
+				"west": {"uv": [0, 6, 8, 9], "rotation": 90, "texture": "#footboard_sides", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 3], "rotation": 180, "texture": "#footboard_sides"},
+				"down": {"uv": [0, 3, 16, 6], "texture": "#footboard_sides"}
+			}
+		},
+		{
+			"from": [0, 0, 13],
+			"to": [3, 3, 16],
+			"faces": {
+				"north": {"uv": [13, 13, 16, 16], "texture": "#footboard"},
+				"east": {"uv": [11, 6, 14, 9], "rotation": 90, "texture": "#footboard_sides"},
+				"south": {"uv": [0, 13, 3, 16], "texture": "#footboard", "cullface": "south"},
+				"west": {"uv": [8, 6, 11, 9], "rotation": 90, "texture": "#footboard_sides", "cullface": "west"},
+				"down": {"uv": [0, 12, 3, 15], "texture": "#footboard_sides", "cullface": "down"}
+			}
+		},
+		{
+			"from": [13, 0, 13],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [0, 13, 3, 16], "texture": "#footboard"},
+				"east": {"uv": [8, 9, 11, 12], "rotation": 90, "texture": "#footboard_sides", "cullface": "east"},
+				"south": {"uv": [13, 13, 16, 16], "texture": "#footboard", "cullface": "south"},
+				"west": {"uv": [11, 9, 14, 12], "rotation": 90, "texture": "#footboard_sides"},
+				"down": {"uv": [3, 12, 6, 15], "texture": "#footboard_sides", "cullface": "down"}
+			}
+		}
+	]
+}

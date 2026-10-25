@@ -1,0 +1,45 @@
+{
+	"format_version": "26.3",
+	"credit": "Bray was here :)",
+	"parent": "minecraft:block/flowers/cross",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/flowers/sunflower_bottom2",
+		"cross": "block/flowers/sunflower_bottom2"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 2.05],
+			"to": [8, 16, 13.95],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [2.05, 0, 8],
+			"to": [13.95, 16, 8],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [7.25, 0, 7.25],
+			"to": [8.75, 16, 8.75],
+			"shade_direction_override": "up",
+			"faces": {
+				"north": {"uv": [7, 0, 9, 16], "texture": "#cross"},
+				"east": {"uv": [7, 0, 9, 16], "texture": "#cross"},
+				"south": {"uv": [7, 0, 9, 16], "texture": "#cross"},
+				"west": {"uv": [7, 0, 9, 16], "texture": "#cross"},
+				"up": {"uv": [7, 0, 9, 2], "texture": "#cross"},
+				"down": {"uv": [7, 14, 9, 16], "texture": "#cross"}
+			}
+		}
+	]
+}

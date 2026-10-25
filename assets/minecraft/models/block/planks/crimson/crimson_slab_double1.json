@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_slab_double_planks",
+  "textures": {
+	"particle": "minecraft:block/planks/crimson/crimson_planks1",
+    "planks": "minecraft:block/planks/crimson/crimson_planks1"
+  }
+}

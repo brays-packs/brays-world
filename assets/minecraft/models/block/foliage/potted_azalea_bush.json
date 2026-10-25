@@ -1,0 +1,10 @@
+{
+	"credit": "Bray was here :)",
+	"parent": "block/foliage/template_potted_azalea_bush",
+	"textures": {
+		"soil": "block/dirt/dirt1",
+		"cross": "block/foliage/azalea_plant",
+		"side": "block/foliage/azalea_side",
+		"top": "block/foliage/azalea_top"
+	}
+}

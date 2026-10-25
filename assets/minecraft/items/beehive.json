@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "block_state_property": "honey_level",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/bee/beehive_honey1"
+        },
+        "when": "1"
+      },
+	  {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/bee/beehive_honey2"
+        },
+        "when": "2"
+      },
+	  {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/bee/beehive_honey3"
+        },
+        "when": "3"
+      },
+	  {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/bee/beehive_honey4"
+        },
+        "when": "4"
+      },
+	  {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/bee/beehive_honey5"
+        },
+        "when": "5"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/beehive_empty"
+    },
+    "property": "minecraft:block_state"
+  }
+}

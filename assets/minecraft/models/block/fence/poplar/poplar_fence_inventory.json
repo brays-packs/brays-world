@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/templates/template_fence_inventory",
+  "textures": {
+    "fence": "minecraft:block/planks/poplar/poplar_fence"
+  }
+}
