@@ -2,9 +2,9 @@
   "multipart": [
     {
       "apply": [
-			{"model": "minecraft:block/wall/resin_brick_wall_post1"},
-			{"model": "minecraft:block/wall/resin_brick_wall_post2"},
-			{"model": "minecraft:block/wall/resin_brick_wall_post3"}
+			{"model": "minecraft:block/wall/resin/resin_brick_wall_post1"},
+			{"model": "minecraft:block/wall/resin/resin_brick_wall_post2"},
+			{"model": "minecraft:block/wall/resin/resin_brick_wall_post3"}
 	  ],
       "when": {
         "up": "true"
@@ -12,7 +12,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/resin_brick_wall_side",
+        "model": "minecraft:block/wall/resin/resin_brick_wall_side",
         "uvlock": true
       },
       "when": {
@@ -21,7 +21,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/resin_brick_wall_side",
+        "model": "minecraft:block/wall/resin/resin_brick_wall_side",
         "uvlock": true,
         "y": 90
       },
@@ -31,7 +31,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/resin_brick_wall_side",
+        "model": "minecraft:block/wall/resin/resin_brick_wall_side",
         "uvlock": true,
         "y": 180
       },
@@ -41,7 +41,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/resin_brick_wall_side",
+        "model": "minecraft:block/wall/resin/resin_brick_wall_side",
         "uvlock": true,
         "y": 270
       },
@@ -51,7 +51,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/resin_brick_wall_side_tall",
+        "model": "minecraft:block/wall/resin/resin_brick_wall_side_tall",
         "uvlock": true
       },
       "when": {
@@ -60,7 +60,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/resin_brick_wall_side_tall",
+        "model": "minecraft:block/wall/resin/resin_brick_wall_side_tall",
         "uvlock": true,
         "y": 90
       },
@@ -70,7 +70,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/resin_brick_wall_side_tall",
+        "model": "minecraft:block/wall/resin/resin_brick_wall_side_tall",
         "uvlock": true,
         "y": 180
       },
@@ -80,7 +80,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/resin_brick_wall_side_tall",
+        "model": "minecraft:block/wall/resin/resin_brick_wall_side_tall",
         "uvlock": true,
         "y": 270
       },

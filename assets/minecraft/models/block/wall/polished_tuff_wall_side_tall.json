@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/wall/template_wall_side_tall",
-  "textures": {
-    "particle": "minecraft:block/stone/polished_tuff1",
-    "wall": "minecraft:block/stone/polished_tuff1"
-  }
-}

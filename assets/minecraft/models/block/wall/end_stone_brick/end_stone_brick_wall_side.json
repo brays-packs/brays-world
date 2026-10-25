@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_wall_side",
+  "textures": {
+	"particle": "minecraft:block/stone/end_stone_bricks",
+    "wall": "minecraft:block/stone/end_stone_bricks"
+  }
+}

@@ -2,27 +2,27 @@
   "multipart": [
     {
       "apply": [
-			{"model": "minecraft:block/wall/polished_tuff_wall_post1"},
-			{"model": "minecraft:block/wall/polished_tuff_wall_post2"},
-			{"model": "minecraft:block/wall/polished_tuff_wall_post3"}
+			{"model": "minecraft:block/wall/polished_tuff/polished_tuff_wall_post1"},
+			{"model": "minecraft:block/wall/polished_tuff/polished_tuff_wall_post2"},
+			{"model": "minecraft:block/wall/polished_tuff/polished_tuff_wall_post3"}
 		  ],
       "when": {"up": "true"}
     },
     {
       "apply": [
-	  { "model": "minecraft:block/wall/polished_tuff_wall_side", "uvlock": true}
+	  { "model": "minecraft:block/wall/polished_tuff/polished_tuff_wall_side", "uvlock": true}
 	  ],
       "when": {"north": "low"}
     },
     {
       "apply": [
-	  {"model": "minecraft:block/wall/polished_tuff_wall_side", "uvlock": true, "y": 90}
+	  {"model": "minecraft:block/wall/polished_tuff/polished_tuff_wall_side", "uvlock": true, "y": 90}
 	  ],
       "when": {"east": "low"}
     },
     {
       "apply": [
-	  {"model": "minecraft:block/wall/polished_tuff_wall_side", "uvlock": true, "y": 180}
+	  {"model": "minecraft:block/wall/polished_tuff/polished_tuff_wall_side", "uvlock": true, "y": 180}
 	  ],
       "when": {
         "south": "low"
@@ -30,7 +30,7 @@
     },
     {
       "apply": [
-	  {"model": "minecraft:block/wall/polished_tuff_wall_side", "uvlock": true, "y": 270}
+	  {"model": "minecraft:block/wall/polished_tuff/polished_tuff_wall_side", "uvlock": true, "y": 270}
 	  ],
       "when": {
         "west": "low"
@@ -38,7 +38,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/polished_tuff_wall_side_tall",
+        "model": "minecraft:block/wall/polished_tuff/polished_tuff_wall_side_tall",
         "uvlock": true
       },
       "when": {
@@ -47,7 +47,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/polished_tuff_wall_side_tall",
+        "model": "minecraft:block/wall/polished_tuff/polished_tuff_wall_side_tall",
         "uvlock": true,
         "y": 90
       },
@@ -57,7 +57,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/polished_tuff_wall_side_tall",
+        "model": "minecraft:block/wall/polished_tuff/polished_tuff_wall_side_tall",
         "uvlock": true,
         "y": 180
       },
@@ -67,7 +67,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/polished_tuff_wall_side_tall",
+        "model": "minecraft:block/wall/polished_tuff/polished_tuff_wall_side_tall",
         "uvlock": true,
         "y": 270
       },

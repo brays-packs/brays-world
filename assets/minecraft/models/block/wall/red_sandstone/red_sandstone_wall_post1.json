@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_wall_post1",
+  "textures": {
+    "particle": "minecraft:block/stone/red_sandstone",
+    "wall": "minecraft:block/stone/red_sandstone"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_wall_post1",
+  "textures": {
+	"particle": "minecraft:block/stone/mud_bricks2",
+    "wall": "minecraft:block/stone/mud_bricks2"
+  }
+}

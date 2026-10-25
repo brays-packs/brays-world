@@ -1,7 +1,0 @@
-{
- "parent": "minecraft:block/wall/template_wall_post3",
-  "textures": {
-	"particle": "minecraft:block/stone/granite1",
-    "wall": "minecraft:block/stone/granite1"
-  }
-}

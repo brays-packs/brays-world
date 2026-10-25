@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_wall_post3",
+  "textures": {
+    "particle": "minecraft:block/stone/polished_deepslate1",
+    "wall": "minecraft:block/stone/polished_deepslate1"
+  }
+}

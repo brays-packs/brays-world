@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/wall/template_wall_side",
-  "textures": {
-	"particle": "minecraft:block/stone/cobblestone1",
-    "wall": "minecraft:block/stone/cobblestone1"
-  }
-}

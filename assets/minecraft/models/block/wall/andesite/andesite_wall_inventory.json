@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/wall/wall_inventory",
+  "parent": "minecraft:block/templates/template_wall_inventory",
   "textures": {
     "wall": "minecraft:block/stone/andesite1"
   }

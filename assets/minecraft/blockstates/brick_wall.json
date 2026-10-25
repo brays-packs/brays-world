@@ -2,30 +2,30 @@
   "multipart": [
     {
       "apply": [
-			{"model": "minecraft:block/wall/brick_wall_post1"},
-			{"model": "minecraft:block/wall/brick_wall_post2"},
-			{"model": "minecraft:block/wall/brick_wall_post3"},
-			{"model": "minecraft:block/wall/brick_wall_post4"},
-			{"model": "minecraft:block/wall/brick_wall_post5"},
-			{"model": "minecraft:block/wall/brick_wall_post6"}
+			{"model": "minecraft:block/wall/brick/brick_wall_post1"},
+			{"model": "minecraft:block/wall/brick/brick_wall_post2"},
+			{"model": "minecraft:block/wall/brick/brick_wall_post3"},
+			{"model": "minecraft:block/wall/brick/brick_wall_post4"},
+			{"model": "minecraft:block/wall/brick/brick_wall_post5"},
+			{"model": "minecraft:block/wall/brick/brick_wall_post6"}
 		  ],
       "when": {"up": "true"}
     },
     {
       "apply": [
-	  { "model": "minecraft:block/wall/brick_wall_side", "uvlock": true}
+	  { "model": "minecraft:block/wall/brick/brick_wall_side", "uvlock": true}
 	  ],
       "when": {"north": "low"}
     },
     {
       "apply": [
-	  {"model": "minecraft:block/wall/brick_wall_side", "uvlock": true, "y": 90}
+	  {"model": "minecraft:block/wall/brick/brick_wall_side", "uvlock": true, "y": 90}
 	  ],
       "when": {"east": "low"}
     },
     {
       "apply": [
-	  {"model": "minecraft:block/wall/brick_wall_side", "uvlock": true, "y": 180}
+	  {"model": "minecraft:block/wall/brick/brick_wall_side", "uvlock": true, "y": 180}
 	  ],
       "when": {
         "south": "low"
@@ -33,7 +33,7 @@
     },
     {
       "apply": [
-	  {"model": "minecraft:block/wall/brick_wall_side", "uvlock": true, "y": 270}
+	  {"model": "minecraft:block/wall/brick/brick_wall_side", "uvlock": true, "y": 270}
 	  ],
       "when": {
         "west": "low"
@@ -41,7 +41,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/brick_wall_side_tall", "uvlock": true
+        "model": "minecraft:block/wall/brick/brick_wall_side_tall", "uvlock": true
       },
       "when": {
         "north": "tall"
@@ -49,7 +49,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/brick_wall_side_tall", "uvlock": true, "y": 90
+        "model": "minecraft:block/wall/brick/brick_wall_side_tall", "uvlock": true, "y": 90
       },
       "when": {
         "east": "tall"
@@ -57,7 +57,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/brick_wall_side_tall", "uvlock": true, "y": 180
+        "model": "minecraft:block/wall/brick/brick_wall_side_tall", "uvlock": true, "y": 180
       },
       "when": {
         "south": "tall"
@@ -65,7 +65,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/wall/brick_wall_side_tall", "uvlock": true, "y": 270
+        "model": "minecraft:block/wall/brick/brick_wall_side_tall", "uvlock": true, "y": 270
       },
       "when": {
         "west": "tall"

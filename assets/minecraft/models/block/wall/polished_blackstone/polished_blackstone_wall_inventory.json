@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/templates/template_wall_inventory",
+  "textures": {
+    "wall": "minecraft:block/stone/polished_blackstone1"
+  }
+}

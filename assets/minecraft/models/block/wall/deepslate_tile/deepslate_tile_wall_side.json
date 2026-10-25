@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_wall_side",
+  "textures": {
+	"particle": "minecraft:block/stone/deepslate_tiles",
+    "wall": "minecraft:block/stone/deepslate_tiles"
+  }
+}

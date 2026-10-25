@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/templates/template_wall_side_tall",
+  "textures": {
+    "particle": "minecraft:block/stone/stone_bricks1",
+    "wall": "minecraft:block/stone/stone_bricks1"
+  }
+}
